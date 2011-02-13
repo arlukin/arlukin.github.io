@@ -1,0 +1,12 @@
+h1. This is my food blog.
+
+On this blog I collect food recepies i intend to use often.
+
+h1. License
+
+The following directories and their contents are things I have written myself and things I have copied from internet.
+
+* _posts/
+* images/
+
+All other directories and files are MIT Licensed. Feel free to use the HTML and CSS as you please. If you do use them, a link back to http://github.com/mojombo/jekyll would be appreciated, but is not required.
