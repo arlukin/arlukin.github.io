@@ -1,19 +1,25 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }}</title>
-   <meta name="author" content="Daniel Lindh" />
+<head>   
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>{{ page.title }}</title>
+  <meta name="author" content="Daniel Lindh" />
 
-   <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+  <!-- RSS Feed -->
+  <link rel="alternate" type="application/rss+xml" title="Arlukin Articles RSS Feed" 
+        href="http://articles.cybercow.se/w/feed/" />
 
-   <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
 
-   <!-- Typekit --> 
-   <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script> 
-   <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
+  <!-- Homepage CSS -->
+  <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+  <link rel="stylesheet" href="/css/arlukin_style.css" type="text/css" media="screen" />
+
+  <!-- Typekit --> 
+  <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script> 
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
 
 </head>
 <body>
@@ -24,22 +30,83 @@ var WRInitTime=(new Date()).getTime();
 </script>
 <!-- ClickTale end of Top part -->
 
-<div class="site">
-  <div class="title">
-    <a href="/food">Arlukin Food</a>
-    <a class="extra" href="/">home</a>
-  </div>
 
-  {{ content }}
 
-  <div class="footer">
-    <div class="contact">
-      <p>
-        Brought to you by Arlukin
-      </p>
+
+<div id="wrapper">
+  <div id="content">
+	  <div id="content-inner">
+      <div id="main">				
+		    <div class="post" id="post-2">
+			    <div class="postmetadata">					
+			      <div class="responses"><b>JANUARY 22ND, 2010</b></div>
+			      <h1><a href="http://articles.cybercow.se/w" rel="bookmark" title="Permanent Link to Start">Start</a></h1>
+					</div> 
+			    <div class="entry">
+            {{ content }}
+			    </div>
+			    <div class="entry"></div>
+		    </div>			
+			  <div id="navigation">
+		      <div class="fleft"></div>
+		      <div class="fright"> </div>
+	      </div>
+  	  </div> <!-- eof main -->
+
+      <!-- begin sidebar -->
+      <div id="sidebar">
+        <div id="header">		
+        	<center>
+		        <a href="http://articles.cybercow.se/w/">Arlukin Articles</a></br>
+		        <p>Out here in the perimeter there are no stars.</p>
+        	</center>
+        </div>
+        <div id="subscribe"></div>
+        <div class="menu">
+          <ul>
+            <li id="pages-3" class="widget widget_pages"><h3> </h3><ul> 
+            <li class="page_item page-item-2 current_page_item"><a href="" title="Start">Start</a></li> 
+            <li class="page_item page-item-26"><a href="" title="Development">Recipie</a> 
+              <ul> 
+              {% for post in site.posts %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% endfor %}
+              </ul> 
+            </li> 
+          </ul> 
+        </div>
+        <div id="subscribe">
+	        <p><img style="vertical-align:-2px;" alt="RSS" src="http://articles.cybercow.se/w/wp-content/themes/8somearlukin/images/feed-icon-16x16.gif" /> &nbsp;<a href="http://articles.cybercow.se/w/feed/">Entries RSS</a> | <a href="http://articles.cybercow.se/w/comments/feed/">Comments RSS</a></p>
+        </div>
+
+        <div id="credit">
+	        <!-- Please leave these links intact -->
+	        <p>
+		        <a href="http://www.wpcosmos.com/">WordPress Themes</a> |&nbsp;<a href="http://wordpress.org/">WordPress</a>
+		        | <a href="http://gberga.cybercow.se/">Gberga</a>
+		        | <a href="http://ngaufu.cybercow.se/">Ngau fu</a>
+		        | <a href="http://photo.cybercow.se/">Photo</a>
+		        <a href="http://healingcenter.cybercow.se/">Healingcenter</a>
+		        | <a href="http://nfn.cybercow.se/">Ngau Fu Nunchaku</a>
+		        |<a href="http://pege.cybercow.se/">Pjotor Photo</a>
+		        | <a href="http://awxire.cybercow.se/">Awxire</a>
+		        <a href="http://www.fareoffice.com">Fareoffice</a>
+		        | <a href="http://www.farepayment.com/">Farepayment</a>
+		        | <a href="http://www.nebol.se/">Nebol</a>
+		        | <a href="http://www.stevepavlina.com/">Steve Pavlina</a>
+		        | <a href="http://www.sporthoj.com/">Sporthoj</a>
+	        </p>
+        </div>
+      </div><!-- end sidebar -->
+      <div style="clear:both;"></div>
     </div>
-  </div>
+  </div> <!-- eo content -->
 </div>
+
+
+
+
+
 
 <a href="http://github.com/arlukin"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
 
@@ -69,6 +136,5 @@ if(typeof ClickTale=='function') ClickTale(7554,0.1,"www07");
 
 </script>
 <!-- Google Analytics end -->
-
 </body>
 </html>
