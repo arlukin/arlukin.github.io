@@ -1,0 +1,214 @@
+/* General */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	font-size: 75%;
+	font-family: "Myriad Pro", Lucida, sans-serif;
+  margin: 0px 0px 0px 10px;
+  background: #333 url(images/bodyBackground.png) repeat-x center 36px;
+	cursor: default;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+	padding: 1em 0 0.6em;
+	font-size: 1.4em;
+}
+
+p {
+	padding: 0.6em 0;
+}
+
+a {
+	color: #BB6B2C;
+}
+
+h1 a, h2 a {
+	color: #333;
+}
+
+a:hover {
+	color: #776559;
+}
+
+ul {
+  padding-left: 10px;
+}
+
+li {
+	margin-left: 10px;
+}
+
+pre {
+	margin: 1em 0;
+	padding: 0.6em 1em;
+	overflow: auto;
+	color: #333;
+	font-family: "Courier New", monospace;
+	background: #e6e6e6;
+	border: 1px solid #ddd;
+}
+
+#container img {
+  float: right;
+  padding:0px 0px 20px 20px;
+}
+
+/* Classes */
+
+.filename {
+	font-weight: bold;
+	letter-spacing: 0.2em;
+}
+
+/*****************************************************************************/
+/*
+/* Wrapper
+/*
+/*****************************************************************************/
+#wrapper {
+  width: 1035px;
+  text-align: left;
+	#margin: 0px auto;
+}
+
+/*****************************************************************************/
+/*
+/* Sidebar
+/*
+/*****************************************************************************/
+#sidebar {
+	margin: 20px 0px 0px 0px ;
+  width: 245px;
+  float:left;  
+  color:#fff;
+  line-height:17px;
+}
+
+#sidebar a {
+  text-decoration:none;  
+  color: #fff;
+  font-weight: 100;
+}
+
+#sidebar a:hover{
+  text-decoration:none;
+  color:#999;
+}
+
+/* Headings */ 
+
+#header{  
+  text-align:center;  
+	margin: 20px 0px 20px 0px;
+}	
+
+#header a{
+  font-size: 280%;
+}
+
+#header p{
+  padding: 0px;
+  font-style:italic;
+  letter-spacing: 1px;
+}
+
+/* Menu */
+
+.menu {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+.menu ul {
+	list-style: none;
+  padding-left: 0px;
+}
+.menu li {
+  margin-left: 0px;
+}
+
+.menu ul li h3{
+  font-size:140%;
+  margin: 0px 0px 8px 0px;
+  border-bottom: 1px solid #fff;
+  font-variant:small-caps;
+}
+
+.menu ul li ul li{
+  background: url("http://articles.cybercow.se/w/wp-content/themes/8somearlukin/images/listbullet.gif") no-repeat 0px -3px;
+  border-bottom:1px solid #555;
+  padding: 0px 0px 1px 15px;
+}
+
+.menu ul li ul li ul li{
+  border-bottom: none;
+}
+
+/*  Subscribe */
+
+#subscribe{
+ text-align:center;
+}
+
+#subscribe img{
+  float:none;
+  vertical-align:-3px;
+  margin-top: 10px; 
+}
+
+/* Credits */ 
+
+#credit{
+  text-align:center;
+
+  color:#555;
+  font-size:85%;
+}
+
+#credit a{
+  color:#999;
+}
+
+#credit a:hover {
+  color: #fff
+}
+
+#ads {
+  text-align:center;
+  #position: fixed; 
+  #z-index: 2000000000; 
+  #right: 0px; 
+  #bottom: 0px; 
+  #cursor: pointer;
+}
+
+#ads img {
+  height: 16px;
+  vertical-align:bottom;
+}
+
+/*****************************************************************************/
+/*
+/* Text container
+/*
+/*****************************************************************************/
+
+#container {
+  float:left;
+	width: 600px;
+	margin: 20px;
+	padding: 40px 50px;
+	
+	color: #333;
+	font-size: 1.2em;
+		
+	background-color: #EEE;	
+}
