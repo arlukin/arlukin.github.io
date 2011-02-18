@@ -127,29 +127,24 @@ pre {
   font-family: Arial, Verdana, Helvetica, sans-serif;
 }
 
-.menu ul {
-	list-style: none;
-  padding-left: 0px;
-}
-.menu li {
-  margin-left: 0px;
-}
-
-.menu ul li h3{
+.menu h3{
   font-size:140%;
   margin: 0px 0px 8px 0px;
   border-bottom: 1px solid #fff;
   font-variant:small-caps;
 }
 
-.menu ul li ul li{
-  background: url("http://articles.cybercow.se/w/wp-content/themes/8somearlukin/images/listbullet.gif") no-repeat 0px -3px;
-  border-bottom:1px solid #555;
-  padding: 0px 0px 1px 15px;
+.menu ul {
+	list-style: none;
+  padding-left: 10px;
+}
+.menu li {
+  margin-left: 0px;
 }
 
-.menu ul li ul li ul li{
-  border-bottom: none;
+.menu hr {
+  border-bottom:1px solid #555;
+  margin: 10px 0px 10px 0px;
 }
 
 /*  Subscribe */
