@@ -8,7 +8,9 @@ title: Arlukin Articles
 
   {{ first_post.content }}
 
-  <a id="more" href="{{ first_post.url }}#disqus">Comments &raquo;</a>
+  <hr />
+
+  {% include disqus.html %}
 
   <hr />
 
@@ -20,3 +22,4 @@ title: Arlukin Articles
   </ul>
 
 </div>
+
