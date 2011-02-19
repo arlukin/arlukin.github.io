@@ -4,25 +4,21 @@ title: Bulgursallad med feta
 category: food
 ---
 
-![Food](/images/2011-02-04-bulgursallad.png)
+![Food](/images/food/2011-02-04-bulgursallad.png)
 
-Fakta
------
-Portioner: 4
-Tillagningstid: 30 minuter
+>* Portioner: 4
+>* Tillagningstid: 30 minuter
 
-Ingredienser
-------------
-2011-02-04-bulgursallad.png
-Bulgur  
-1 Gurka, mellanstor  
-410g Svarta bönor på burk  
-150g Majs på burk  
-200g 3%ig Apertina, tärnad salladsost (feta imitaiton)  
-250g Körsbärstomater  
-1påse Knorrs dressing mix, fransk  
-
-Olivolja  
+Antal | Ingrediens                       | ICA
+----- | -------------------------------- | ---
+      | Bulgur                           | X
+1     | Gurka, mellanstor                | X
+410g  | Svarta bönor på burk             | X
+150g  | Majs på burk                     | X
+200g  | Apertina, 3%ig tärnad salladsost | X
+250g  | Körsbärstomater                  | X
+1påse | Knorrs dressing mix              | X
+      | Olivolja                         | X
 
 Tillagning
 ----------

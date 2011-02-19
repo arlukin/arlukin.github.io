@@ -4,27 +4,25 @@ title: Currybulgur
 category: food
 ---
 
-![Food](2011-02-04-bulgursallad.png)
+![Food](/images/food/no_image.png)
 
-Fakta
------
-Portioner: 4
-Tillagningstid: 15 minuter
-Kopierat ifrån: Frebaco bulgur baksida
+>* Portioner: 4
+>* Tillagningstid: 15 minuter
+>* Inspirerad av: Frebaco bulgur baksida
 
-Ingredienser
-------------
+Antal | Ingrediens                | ICA
+----- | ------------------------- | ---
+2 dl  | Bulgur                    | x
+1     | Grönsaksbuljongstärning   | x
+5 dl  | Frysta wokgrönsaker       | x
+2     | Bananer                   | x
+1 tsk | Curry                     | x
+½ tsk | Spiskummin                | x
+      | Olivolja                  | x
+      | Salt och peppar           | x
+1 dl  | Naturell yoghurt          | x
+1 msk | Kokos till garnering      | x
 
-2 dl bulgur  
-5 dl frysta wokgrönsaker
-2 bananer
-1 tsk curry
-0.5tsk spiskummin
-Olivolja
-Salt och peppar
-1 dl naturell yoghurt
-1 msk kokos till garnering
-1tärning grönsaksbuljong
 
 Tillagning
 ----------

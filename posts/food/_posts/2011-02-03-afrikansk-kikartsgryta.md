@@ -4,35 +4,33 @@ title: Afrikansk kikärtsgryta
 category: food
 ---
 
-![Food](http://www.vegetariskt.com/ingenbild_450.gif)
+![Food](/images/food/2011-02-03-afrikansk-kikartsgryta.png)
 
-Fakta
------
+>* Portioner: 4
+>* Tillagningstid: 15 minuter
+>* Inspirerad av: [xx](http://www.vegetariskt.com/visarecept.asp?ReceptID=230)
 
-Portioner: 4
-Tillagningstid: 15 minuter
-Kopierat ifrån: [xx](http://www.vegetariskt.com/visarecept.asp?ReceptID=230)
-
-Ingredienser
-------------
-
-1 hackad gul lök  
-300 g kokta kikärtor  
-50 g cashewnötter  
-1 låda coctailtomater  
-3 msk jordnötssmör  
-2 dl grönsaksbuljong  
-Curry  
-Oregano  
-Chilipeppar  
-Salt   
-Svartpeppar  
-Socker  
-
-Cous-cous  
+Antal | Ingrediens                | ICA
+----- | ------------------------- | ---
+1     | Hackad gul lök            | x
+300 g | Kokta kikärtor            | x
+50 g  | Cashewnötter              | x
+400g  | Coctailtomater            | x
+3 msk | Jordnötssmör              | x
+2 dl  | Grönsaksbuljong           | x
+      | Curry                     | x
+      | Oregano                   | x
+      | Chilipeppar               | x
+      | Salt                      | x
+      | Svartpeppar               | x
+      | Socker                    | x
+      | Ris                       | x
 
 Tillagning
 ----------
-Stek löken i botten på en kastrull, häll i tomaterna och kikärtorna. Koka upp med buljongen och jordnötssmöret, smaka av med kryddorna. Koka ca. 10 minuter, häll i nötterna när en minut återstår.
+* Koka ris.
+* Stek löken i botten på en kastrull, häll i tomaterna och kikärtorna.
+* Koka upp med buljongen, smaka av med kryddorna.
+* Koka ca. 10 minuter, häll i nötterna när en minut återstår.
 
-Koka upp cous-cous
+

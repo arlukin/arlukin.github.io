@@ -2,19 +2,19 @@
 layout: post
 title: Carinas linsbologe
 category: food
+published: false
 ---
 
-![Food](xx)
+![Food](/images/food/no_image.png)
 
-Fakta
------
-Portioner: xx
-Tillagningstid: xx minuter
-Kopierat ifrån: [xx](http://xx)
+>* Portioner: xx
+>* Tillagningstid: xx minuter
 
-Ingredienser
-------------
-
+Antal | Ingrediens                | ICA
+----- | ------------------------- | ---
+2 dl  | Linser                    | x
 
 Tillagning
 ----------
+
+* Ett
