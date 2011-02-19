@@ -1,17 +1,17 @@
 /* General */
 
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 body {
-	font-size: 75%;
-	font-family: "Myriad Pro", Lucida, sans-serif;
+  font-size: 75%;
+  font-family: "Myriad Pro", Lucida, sans-serif;
   margin: 0px 0px 0px 10px;
-  background: #333 url(images/bodyBackground.png) repeat-x center 36px;
-	cursor: default;
+  background: #333;
+  cursor: default;
 }
 
 h1 {
@@ -19,24 +19,25 @@ h1 {
 }
 
 h2 {
-	padding: 1em 0 0.6em;
-	font-size: 1.4em;
+  padding: 1em 0 0.6em;
+  font-size: 1.4em;
 }
 
 p {
-	padding: 0.6em 0;
+  padding: 0.6em 0;
 }
 
 a {
-	color: #BB6B2C;
+  color: #439;
+  text-decoration:none;
 }
 
 h1 a, h2 a {
-	color: #333;
+  color: #333;
 }
 
 a:hover {
-	color: #776559;
+  color: #776559;
 }
 
 ul {
@@ -44,17 +45,17 @@ ul {
 }
 
 li {
-	margin-left: 10px;
+  margin-left: 10px;
 }
 
 pre {
-	margin: 1em 0;
-	padding: 0.6em 1em;
-	overflow: auto;
-	color: #333;
-	font-family: "Courier New", monospace;
-	background: #e6e6e6;
-	border: 1px solid #ddd;
+  margin: 1em 0;
+  padding: 0.6em 1em;
+  overflow: auto;
+  color: #333;
+  font-family: "Courier New", monospace;
+  background: #e6e6e6;
+  border: 1px solid #ddd;
 }
 
 #container img {
@@ -65,8 +66,8 @@ pre {
 /* Classes */
 
 .filename {
-	font-weight: bold;
-	letter-spacing: 0.2em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
 }
 
 /*****************************************************************************/
@@ -77,7 +78,7 @@ pre {
 #wrapper {
   width: 1035px;
   text-align: left;
-	#margin: 0px auto;
+  #margin: 0px auto;
 }
 
 /*****************************************************************************/
@@ -86,15 +87,14 @@ pre {
 /*
 /*****************************************************************************/
 #sidebar {
-	margin: 20px 0px 0px 0px ;
+  margin: 20px 0px 0px 0px ;
   width: 245px;
-  float:left;  
+  float:left;
   color:#fff;
   line-height:17px;
 }
 
 #sidebar a {
-  text-decoration:none;  
   color: #fff;
   font-weight: 100;
 }
@@ -104,12 +104,12 @@ pre {
   color:#999;
 }
 
-/* Headings */ 
+/* Headings */
 
-#header{  
-  text-align:center;  
-	margin: 20px 0px 20px 0px;
-}	
+#header{
+  text-align:center;
+  margin: 20px 0px 20px 0px;
+}
 
 #header a{
   font-size: 280%;
@@ -135,7 +135,7 @@ pre {
 }
 
 .menu ul {
-	list-style: none;
+  list-style: none;
   padding-left: 10px;
 }
 .menu li {
@@ -156,10 +156,10 @@ pre {
 #subscribe img{
   float:none;
   vertical-align:-3px;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
-/* Credits */ 
+/* Credits */
 
 #credit{
   text-align:center;
@@ -178,10 +178,10 @@ pre {
 
 #ads {
   text-align:center;
-  #position: fixed; 
-  #z-index: 2000000000; 
-  #right: 0px; 
-  #bottom: 0px; 
+  #position: fixed;
+  #z-index: 2000000000;
+  #right: 0px;
+  #bottom: 0px;
   #cursor: pointer;
 }
 
@@ -198,12 +198,25 @@ pre {
 
 #container {
   float:left;
-	width: 600px;
-	margin: 20px;
-	padding: 40px 50px;
-	
-	color: #333;
-	font-size: 1.2em;
-		
-	background-color: #EEE;	
+  width: 600px;
+  margin: 20px;
+  padding: 40px 50px;
+
+  color: #333;
+  font-size: 1.2em;
+
+  background-color: #EEE;
+}
+
+#container abbr {
+  color: #666;
+  float: left;
+  font-size: 10px;
+  font-style: italic;
+}
+
+#archive abbr, #related abbr {
+  color: #666;
+  float: right;
+  font-size: 12px;
 }

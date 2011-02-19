@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<head>   
+<head>
   <title>{{ page.title }}</title>
-  
+
   <meta name="author" content="Daniel Lindh" />
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 		 
-	<meta http-equiv="imagetoolbar" content="no"> 	
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="imagetoolbar" content="no">
 
   <!-- RSS Feed -->
   <link rel="alternate" type="application/rss+xml" title="Arlukin Articles RSS Feed" href="http://arlukin.github.com/feed/" />
@@ -24,85 +24,89 @@
   </script>
   <!-- ClickTale Top part - End -->
 
-  <!-- Wrapper - Begin -->		
+  <!-- Wrapper - Begin -->
   <div id="wrapper">
-  
-  	<!-- SIDEBAR - BEGIN -->
-	  <div id="sidebar">
-	  
-	     <!-- Header - Begin-->
-      <div id="header">		
-        <a href="http://arlukin.github.com/">Arlukin Articles</a><br />
+
+    <!-- SIDEBAR - BEGIN -->
+    <div id="sidebar">
+
+       <!-- Header - Begin-->
+      <div id="header">
+        <a href="/">Arlukin Articles</a><br />
         <p>Out here in the perimeter there are no stars.</p>
       </div>
-	    <!-- Header - End -->
-	     
+      <!-- Header - End -->
+
       <!-- Menu - Begin -->
       <div class="menu">
-      
+
         <h3>Food</h3>
         <ul>
-          {% for post in site.categories.code %}
+          {% for post in site.categories.food %}
             <li><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
-        
+
         <hr />
-      </div>	  
+      </div>
       <!-- Menu - End-->
-            
+
       <!-- Subscribe - Begin -->
       <div id="subscribe">
         <a href="http://arlukin.github.com/feed/"><img alt="RSS" src="/images/rss.gif"/>&nbsp;Entries RSS</a>
       </div>
       <!-- Subscribe - End -->
-            
+
+      <hr />
+
       <!-- Credit - Begin -->
       <div id="credit">
         <a href="http://gberga.cybercow.se/">Gberga</a>&nbsp;|&nbsp;
-  	    <a href="http://ngaufu.cybercow.se/">Ngau fu</a>&nbsp;|&nbsp;
-  	    <a href="http://photo.cybercow.se/">Photo</a>&nbsp;|&nbsp;
-  	    <a href="http://sveaborg.cybercow.se/">Sveaborg</a><br />
-  	    
-  	    <a href="http://nfn.cybercow.se/">Ngau Fu Nunchaku</a>
-  	    <a href="http://pege.cybercow.se/">Pjotor Photo</a>&nbsp;|&nbsp;
-  	    <a href="http://awxire.cybercow.se/">Awxire</a><br />
-  	    
-  	    <a href="http://www.fareoffice.com/">Fareoffice</a>&nbsp;|&nbsp;
-  	    <a href="http://www.farepayment.com/">Farepayment</a>&nbsp;|&nbsp;
-  	    <a href="http://www.nebol.se/">Nebol</a><br />
+        <a href="http://ngaufu.cybercow.se/">Ngau fu</a>&nbsp;|&nbsp;
+        <a href="http://photo.cybercow.se/">Photo</a>&nbsp;|&nbsp;
+        <a href="http://sveaborg.cybercow.se/">Sveaborg</a><br />
+
+        <a href="http://nfn.cybercow.se/">Ngau Fu Nunchaku</a>
+        <a href="http://pege.cybercow.se/">Pjotor Photo</a>&nbsp;|&nbsp;
+        <a href="http://awxire.cybercow.se/">Awxire</a><br />
+
+        <a href="http://www.fareoffice.com/">Fareoffice</a>&nbsp;|&nbsp;
+        <a href="http://www.farepayment.com/">Farepayment</a>&nbsp;|&nbsp;
+        <a href="http://www.nebol.se/">Nebol</a><br />
       </div>
-      <!-- Credit - End -->     
+      <!-- Credit - End -->
+
+      <hr />
 
       <!-- Ads for my sites - Begin -->
-      <div id="ads"><a 
-        href="http://www.facebook.com/arlukin" title="Facebook"><img src="./images/facebook.jpg" alt="Facebook"></a><a 
-        href="http://se.linkedin.com/in/therealdaniellindh" title="Linkedin"><img src="./images/linkedin.jpg" alt="Linkedin"></a><a 
-        href="http://github.com/arlukin" title="Github"><img src="./images/github.jpg" alt="Github"></a><a     
-        href="http://www.youtube.com/user/cybercowdotse" title="Youtube"><img src="./images/youtube.jpg" alt="Youtube"></a><a
-        href="https://www.flashback.org/u10518" title="Flashback"><img src="./images/flashback.jpg" alt="Flashback"></a><a 
-        href="http://www.gravatar.com/avatar/e48848ec1ed23a7503566db114efd000.png" title="Gravatar"><img src="./images/gravatar.jpg" alt="Gravatar"></a><a 
-        href="http://www.geni.com/people/Daniel-Lindh" title="Geni"><img src="./images/geni.jpg" alt="Geni"></a><a 
-        href="https://launchpad.net/~daniel-cybercow" title="Launchpad"><img src="./images/launchpad.jpg" alt="Launchpad"></a><a         
-        href="http://ubuntuforums.org/member.php?u=928011" title="Ubuntu forums"><img src="./images/ubuntuforum.jpg" alt="Ubuntu forums"></a><a 
-        href="http://www.minhembio.com/MasterPo" title="Min hembio"><img src="./images/minhembio.jpg" alt="Min hembio"></a><a 
-        href="https://sourceforge.net/users/arlukin" title="Sourceforge"><img src="./images/sourceforge.jpg" alt="Sourceforge"></a>
+      <div id="ads"><a
+        href="http://www.facebook.com/arlukin" title="Facebook"><img src="/images/facebook.jpg" alt="Facebook"></a><a
+        href="http://se.linkedin.com/in/therealdaniellindh" title="Linkedin"><img src="/images/linkedin.jpg" alt="Linkedin"></a><a
+        href="http://github.com/arlukin" title="Github"><img src="/images/github.jpg" alt="Github"></a><a
+        href="http://www.youtube.com/user/cybercowdotse" title="Youtube"><img src="/images/youtube.jpg" alt="Youtube"></a><a
+        href="https://www.flashback.org/u10518" title="Flashback"><img src="/images/flashback.jpg" alt="Flashback"></a><a
+        href="http://www.gravatar.com/avatar/e48848ec1ed23a7503566db114efd000.png" title="Gravatar"><img src="/images/gravatar.jpg" alt="Gravatar"></a><a
+        href="http://www.geni.com/people/Daniel-Lindh" title="Geni"><img src="/images/geni.jpg" alt="Geni"></a><a
+        href="https://launchpad.net/~daniel-cybercow" title="Launchpad"><img src="/images/launchpad.jpg" alt="Launchpad"></a><a
+        href="http://ubuntuforums.org/member.php?u=928011" title="Ubuntu forums"><img src="/images/ubuntuforum.jpg" alt="Ubuntu forums"></a><a
+        href="http://www.minhembio.com/MasterPo" title="Min hembio"><img src="/images/minhembio.jpg" alt="Min hembio"></a><a
+        href="https://sourceforge.net/users/arlukin" title="Sourceforge"><img src="/images/sourceforge.jpg" alt="Sourceforge"></a>
       </div>
       <!-- Ads for my sites - End -->
-            
-	  </div>
-   	<!-- Sidebar - Begin -->
 
-  	<!-- Content container - Begin -->	
+    </div>
+    <!-- Sidebar - Begin -->
+
+    <!-- Content container - Begin -->
     {{ content }}
-		<!-- Content container - Begin -->		
-		
-	</div>
+    <!-- Content container - Begin -->
+
+  </div>
   <!-- Wrapper - End -->
 
-  <!-- Fork me at github - Begin -->  
-  <a href="http://github.com/arlukin"><img style="position: absolute; top: 0; right: 0; border: 0;" src="./images/forkme.png" alt="Fork me on GitHub"></a>
-  <!-- Fork me at github - End -->  
+  <!-- Fork me at github - Begin -->
+  <a href="http://github.com/arlukin"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/forkme.png" alt="Fork me on GitHub"></a>
+  <!-- Fork me at github - End -->
 
   <!-- ClickTale Bottom part - Begin -->
   <div id="ClickTaleDiv" style="display: none;"></div>
@@ -112,23 +116,23 @@
   </script>
   <script type="text/javascript">
   if(typeof ClickTale=='function') ClickTale(8054,0.45,"www07");
-  </script>  
+  </script>
   <!-- ClickTale Bottom part - End-->
 
   <!-- Google Analytics - Begin -->
   <script type="text/javascript">
-  
+
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-21377362-1']);
     _gaq.push(['_trackPageview']);
-  
+
     (function() {
       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-  
+
   </script>
-  <!-- Google Analytics - End -->    
+  <!-- Google Analytics - End -->
 </body>
 </html>
