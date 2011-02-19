@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Italiensk quorngryta
+category: food
 ---
-
-{{ page.title }}
-================
-
-<p class="meta">2011-02-13 - Daniel Lindh</p>
 
 ![Food](http://www.vegetariskt.com/medlem_bild/med_bild_saknas.jpg)
 

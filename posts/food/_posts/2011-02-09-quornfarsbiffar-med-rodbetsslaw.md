@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Quornfärsbiffar med rödbetsslaw
+category: food
 ---
-
-{{ page.title }}
-================
-
-<p class="meta">2011-02-13 - Daniel Lindh</p>
 
 ![Food](http://www.vegetariskt.com/recept_bilder/big_2149.jpg)
 

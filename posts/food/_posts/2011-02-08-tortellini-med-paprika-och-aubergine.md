@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Tortellini med paprika och aubergine
+category: food
 ---
-
-{{ page.title }}
-================
-
-<p class="meta">2011-02-13 - Daniel Lindh</p>
 
 ![Food](http://www.vegetariskt.com/recept_bilder/big_1737.jpg)
 

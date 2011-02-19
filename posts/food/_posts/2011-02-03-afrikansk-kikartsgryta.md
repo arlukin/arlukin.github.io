@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Afrikansk kikärtsgryta
+category: food
 ---
-
-{{ page.title }}
-================
-
-<p class="meta">2011-02-13 - Daniel Lindh</p>
 
 ![Food](http://www.vegetariskt.com/ingenbild_450.gif)
 

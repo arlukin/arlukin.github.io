@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Potatis- och purjolökssoppa
+category: food
 ---
-
-{{ page.title }}
-================
-
-<p class="meta">2011-02-13 - Daniel Lindh</p>
 
 ![Food](http://www.vegetariskt.com/sendbinary_visabild.asp?path=recept_bilder/big_2413.jpg&width=450)
 

@@ -1,14 +1,10 @@
 ---
 layout: post
 title: Currybulgur
+category: food
 ---
 
-{{ page.title }}
-================
-
-<p class="meta">2011-02-13 - Daniel Lindh</p>
-
-![Food](2011-02-04-bulgursallad.png)
+![Food](xx)
 
 Fakta
 -----

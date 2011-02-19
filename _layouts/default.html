@@ -1,179 +1,134 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>   
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <title>{{ page.title }}</title>
+  
   <meta name="author" content="Daniel Lindh" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 		 
+	<meta http-equiv="imagetoolbar" content="no"> 	
 
   <!-- RSS Feed -->
-  <link rel="alternate" type="application/rss+xml" title="Arlukin Articles RSS Feed" 
-        href="http://articles.cybercow.se/w/feed/" />
+  <link rel="alternate" type="application/rss+xml" title="Arlukin Articles RSS Feed" href="http://arlukin.github.com/feed/" />
 
   <!-- syntax highlighting CSS -->
   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
 
   <!-- Homepage CSS -->
   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
-  <link rel="stylesheet" href="/css/arlukin_style.css" type="text/css" media="screen" />
-
 </head>
+
 <body>
+  <!-- ClickTale Top part - Begin -->
+  <script type="text/javascript">
+  var WRInitTime=(new Date()).getTime();
+  </script>
+  <!-- ClickTale Top part - End -->
 
-<!-- ClickTale Top part -->
-<script type="text/javascript">
-var WRInitTime=(new Date()).getTime();
-</script>
-<!-- ClickTale end of Top part -->
+  <!-- Wrapper - Begin -->		
+  <div id="wrapper">
+  
+  	<!-- SIDEBAR - BEGIN -->
+	  <div id="sidebar">
+	  
+	     <!-- Header - Begin-->
+      <div id="header">		
+        <a href="http://arlukin.github.com/">Arlukin Articles</a><br />
+        <p>Out here in the perimeter there are no stars.</p>
+      </div>
+	    <!-- Header - End -->
+	     
+      <!-- Menu - Begin -->
+      <div class="menu">
+      
+        <h3>Food</h3>
+        <ul>
+          {% for post in site.categories.code %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+        
+        <hr />
+      </div>	  
+      <!-- Menu - End-->
+            
+      <!-- Subscribe - Begin -->
+      <div id="subscribe">
+        <a href="http://arlukin.github.com/feed/"><img alt="RSS" src="/images/rss.gif"/>&nbsp;Entries RSS</a>
+      </div>
+      <!-- Subscribe - End -->
+            
+      <!-- Credit - Begin -->
+      <div id="credit">
+        <a href="http://gberga.cybercow.se/">Gberga</a>&nbsp;|&nbsp;
+  	    <a href="http://ngaufu.cybercow.se/">Ngau fu</a>&nbsp;|&nbsp;
+  	    <a href="http://photo.cybercow.se/">Photo</a>&nbsp;|&nbsp;
+  	    <a href="http://sveaborg.cybercow.se/">Sveaborg</a><br />
+  	    
+  	    <a href="http://nfn.cybercow.se/">Ngau Fu Nunchaku</a>
+  	    <a href="http://pege.cybercow.se/">Pjotor Photo</a>&nbsp;|&nbsp;
+  	    <a href="http://awxire.cybercow.se/">Awxire</a><br />
+  	    
+  	    <a href="http://www.fareoffice.com/">Fareoffice</a>&nbsp;|&nbsp;
+  	    <a href="http://www.farepayment.com/">Farepayment</a>&nbsp;|&nbsp;
+  	    <a href="http://www.nebol.se/">Nebol</a><br />
+      </div>
+      <!-- Credit - End -->     
 
+      <!-- Ads for my sites - Begin -->
+      <div id="ads"><a 
+        href="http://www.facebook.com/arlukin" title="Facebook"><img src="./images/facebook.jpg" alt="Facebook"></a><a 
+        href="http://se.linkedin.com/in/therealdaniellindh" title="Linkedin"><img src="./images/linkedin.jpg" alt="Linkedin"></a><a 
+        href="http://github.com/arlukin" title="Github"><img src="./images/github.jpg" alt="Github"></a><a     
+        href="http://www.youtube.com/user/cybercowdotse" title="Youtube"><img src="./images/youtube.jpg" alt="Youtube"></a><a
+        href="https://www.flashback.org/u10518" title="Flashback"><img src="./images/flashback.jpg" alt="Flashback"></a><a 
+        href="http://www.gravatar.com/avatar/e48848ec1ed23a7503566db114efd000.png" title="Gravatar"><img src="./images/gravatar.jpg" alt="Gravatar"></a><a 
+        href="http://www.geni.com/people/Daniel-Lindh" title="Geni"><img src="./images/geni.jpg" alt="Geni"></a><a 
+        href="https://launchpad.net/~daniel-cybercow" title="Launchpad"><img src="./images/launchpad.jpg" alt="Launchpad"></a><a         
+        href="http://ubuntuforums.org/member.php?u=928011" title="Ubuntu forums"><img src="./images/ubuntuforum.jpg" alt="Ubuntu forums"></a><a 
+        href="http://www.minhembio.com/MasterPo" title="Min hembio"><img src="./images/minhembio.jpg" alt="Min hembio"></a><a 
+        href="https://sourceforge.net/users/arlukin" title="Sourceforge"><img src="./images/sourceforge.jpg" alt="Sourceforge"></a>
+      </div>
+      <!-- Ads for my sites - End -->
+            
+	  </div>
+   	<!-- Sidebar - Begin -->
 
-
-
-<div id="wrapper">
-  <div id="content">
-	  <div id="content-inner">
-      <div id="main">				
-		    <div class="post" id="post-2">
-			    <div class="postmetadata">					
-			      <div class="responses"><b>JANUARY 22ND, 2010</b></div>
-			      <h1><a href="http://articles.cybercow.se/w" rel="bookmark" title="Permanent Link to Start">Start</a></h1>
-					</div> 
-			    <div class="entry">
-            {{ content }}
-			    </div>
-			    <div class="entry"></div>
-		    </div>			
-			  <div id="navigation">
-		      <div class="fleft"></div>
-		      <div class="fright"> </div>
-	      </div>
-  	  </div> <!-- eof main -->
-
-      <!-- begin sidebar -->
-      <div id="sidebar">
-        <div id="header">		
-        	<center>
-		        <a href="http://articles.cybercow.se/w/">Arlukin Articles</a></br>
-		        <p>Out here in the perimeter there are no stars.</p>
-        	</center>
-        </div>
-        <div id="subscribe"></div>
-        <div class="menu">
-          <ul>
-            <li id="pages-3" class="widget widget_pages"><h3> </h3><ul> 
-            <li class="page_item page-item-2 current_page_item"><a href="" title="Start">Start</a></li> 
-            <li class="page_item page-item-26"><a href="" title="Development">Recipie</a> 
-              <ul> 
-              {% for post in site.posts %}
-                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-              {% endfor %}
-              </ul> 
-            </li> 
-          </ul> 
-        </div>
-        <div id="subscribe">
-	        <p><img style="vertical-align:-2px;" alt="RSS" src="http://articles.cybercow.se/w/wp-content/themes/8somearlukin/images/feed-icon-16x16.gif" /> &nbsp;<a href="http://articles.cybercow.se/w/feed/">Entries RSS</a> | <a href="http://articles.cybercow.se/w/comments/feed/">Comments RSS</a></p>
-        </div>
-
-        <div id="credit">
-	        <!-- Please leave these links intact -->
-	        <p>
-		        <a href="http://www.wpcosmos.com/">WordPress Themes</a> |&nbsp;<a href="http://wordpress.org/">WordPress</a>
-		        | <a href="http://gberga.cybercow.se/">Gberga</a>
-		        | <a href="http://ngaufu.cybercow.se/">Ngau fu</a>
-		        | <a href="http://photo.cybercow.se/">Photo</a>
-		        <a href="http://healingcenter.cybercow.se/">Healingcenter</a>
-		        | <a href="http://nfn.cybercow.se/">Ngau Fu Nunchaku</a>
-		        |<a href="http://pege.cybercow.se/">Pjotor Photo</a>
-		        | <a href="http://awxire.cybercow.se/">Awxire</a>
-		        <a href="http://www.fareoffice.com">Fareoffice</a>
-		        | <a href="http://www.farepayment.com/">Farepayment</a>
-		        | <a href="http://www.nebol.se/">Nebol</a>
-		        | <a href="http://www.stevepavlina.com/">Steve Pavlina</a>
-		        | <a href="http://www.sporthoj.com/">Sporthoj</a>
-	        </p>
-        </div>
-      </div><!-- end sidebar -->
-      <div style="clear:both;"></div>
-    </div>
-  </div> <!-- eo content -->
-</div>
-
-<!-- Ads for my sites. -->
-<div style="position: fixed; z-index: 2000000000; right: 0px; bottom: 0px; cursor: pointer;">
-  <a href="http://www.facebook.com/arlukin" title="Facebook"> 
-		<img height="16" src="http://cybercow.se/images/logos/facebook.jpg" alt="Facebook"/>		
-	</a> 
- 
-	<a href="https://www.flashback.org/u10518" title="Flashback"> 
-		<img height="16" src="http://cybercow.se/images/logos/flashback.jpg" alt="Flashback"/>		
-	</a> 
- 
-	<a href="http://www.geni.com/people/Daniel-Lindh" title="Geni"> 
-		<img height="16" src="http://cybercow.se/images/logos/geni.jpg" alt="Geni"/> 
-	</a>	
-	
-	<a href="http://github.com/arlukin" title="Github"> 
-		<img height="16" src="http://cybercow.se/images/logos/github.jpg" alt="Github"/> 
-	</a> 
-	
-	<a href="http://www.gravatar.com/avatar/e48848ec1ed23a7503566db114efd000.png" title="Gravatar"> 
-		<img height="16" src="http://cybercow.se/images/logos/gravatar.jpg" alt="Gravatar"/> 
-	</a> 
-	
-	<a href="https://launchpad.net/~daniel-cybercow" title="Launchpad"> 
-		<img height="16" src="http://cybercow.se/images/logos/launchpad.jpg" alt="Launchpad"/> 
-	</a> 
-	
-	<a href="http://se.linkedin.com/in/therealdaniellindh" title="Linkedin"> 
-		<img height="16" src="http://cybercow.se/images/logos/linkedin.jpg" alt="Linkedin"/> 
-	</a> 
-	
-	<a href="http://www.minhembio.com/MasterPo" title="Min hembio"> 
-		<img height="16" src="http://cybercow.se/images/logos/minhembio.jpg" alt="Min hembio"/> 
-	</a>				
-				
-	<a href="https://sourceforge.net/users/arlukin" title="Sourceforge"> 
-		<img height="16" src="http://cybercow.se/images/logos/sourceforge.jpg" alt="Sourceforge"/> 
-	</a> 
+  	<!-- Content container - Begin -->	
+    {{ content }}
+		<!-- Content container - Begin -->		
 		
-	<a href="http://ubuntuforums.org/member.php?u=928011" title="Ubuntu forums"> 
-		<img height="16" src="http://cybercow.se/images/logos/ubuntuforum.jpg" alt="Ubuntu forums"/> 
-	</a>						
-	
-	<a href="http://www.youtube.com/user/cybercowdotse" title="Youtube"> 
-		<img height="16" src="http://cybercow.se/images/logos/youtube.jpg" alt="Youtube"/> 
-	</a>	
-</div>
+	</div>
+  <!-- Wrapper - End -->
 
+  <!-- Fork me at github - Begin -->  
+  <a href="http://github.com/arlukin"><img style="position: absolute; top: 0; right: 0; border: 0;" src="./images/forkme.png" alt="Fork me on GitHub"></a>
+  <!-- Fork me at github - End -->  
 
+  <!-- ClickTale Bottom part - Begin -->
+  <div id="ClickTaleDiv" style="display: none;"></div>
+  <script type="text/javascript">
+  if(document.location.protocol!='https:')
+    document.write(unescape("%3Cscript%20src='http://s.clicktale.net/WRb6.js'%20type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+  if(typeof ClickTale=='function') ClickTale(8054,0.45,"www07");
+  </script>  
+  <!-- ClickTale Bottom part - End-->
 
-<a href="http://github.com/arlukin"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
-
-<!-- ClickTale Bottom part -->
-<div id="ClickTaleDiv" style="display: none;"></div>
-<script type="text/javascript">
-if(document.location.protocol!='https:')
-  document.write(unescape("%3Cscript%20src='http://s.clicktale.net/WRb6.js'%20type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-if(typeof ClickTale=='function') ClickTale(7554,0.1,"www07");
-</script>
-<!-- ClickTale end of Bottom part -->
-
-<!-- Google Analytics -->
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-21377362-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-<!-- Google Analytics end -->
+  <!-- Google Analytics - Begin -->
+  <script type="text/javascript">
+  
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-21377362-1']);
+    _gaq.push(['_trackPageview']);
+  
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  
+  </script>
+  <!-- Google Analytics - End -->    
 </body>
 </html>
