@@ -5,21 +5,20 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Arlukin Food</title>
- <link href="http://arlukin.github/atom.xml" rel="self"/>
- <link href="http://arlukin.github/"/>
+ <link href="http://arlukin.github.com/atom.xml" rel="self"/>
+ <link href="http://arlukin.github.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://arlukin.github/articles/</id>
+ <id>http://arlukin.github.com/</id>
  <author>
    <name>Daniel Lindh</name>
    <email>daniel@cybercow.se</email>
  </author>
-
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://arlukin.github/{{ post.url }}"/>
+   <link href="http://arlukin.github.com/{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://arlukin.github/articles{{ post.id }}</id>
+   <id>http://arlukin.github.com/{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

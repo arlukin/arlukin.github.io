@@ -4,7 +4,7 @@ title: Bulgursallad med feta
 category: food
 ---
 
-![Food](/images/food/2011-02-04-bulgursallad.png)
+![Food]({{ site.url }}/images/food/2011-02-04-bulgursallad.png)
 
 >* Portioner: 4
 >* Tillagningstid: 30 minuter

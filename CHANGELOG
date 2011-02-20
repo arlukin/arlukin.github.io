@@ -1,13 +1,15 @@
 TODO:
 * Fix images in Atom feed.
 * Check http://litanyagainstfear.com/ for more featurs
+
 * Add all arlukin articles posts.
 * Attach to arlukin.cybercow.se
+
 * Use http://blog.labnotes.org/2009/03/14/buildr-how-we-generate-the-documentation-web-site-and-pdf/ ?
 
-* Add icons like on http://www.telltalegames.com/walkingdead
 * Add feedburner?
   <link rel="alternate" type="application/rss+xml" title="Telltale Blog" href="http://feeds.feedburner.com/telltaleblog" />
+
 * http://www.zurb.com/playground/osx-dock
 
 CHANGELOG:

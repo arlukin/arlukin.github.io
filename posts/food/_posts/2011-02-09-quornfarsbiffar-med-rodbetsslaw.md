@@ -4,7 +4,7 @@ title: Quornfärsbiffar med rödbetsslaw
 category: food
 ---
 
-![Food](/images/food/2011-02-09-quornfarsbiffar-med-rodbetsslaw.png)
+![Food]({{ site.url }}/images/food/2011-02-09-quornfarsbiffar-med-rodbetsslaw.png)
 
 >* Portioner: 4
 >* Tillagningstid: 60 minuter

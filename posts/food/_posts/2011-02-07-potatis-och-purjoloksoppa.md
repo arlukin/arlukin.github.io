@@ -4,7 +4,7 @@ title: Potatis- och purjolökssoppa
 category: food
 ---
 
-![Food](/images/food/2011-02-07-potatis-och-purjoloksoppa.png)
+![Food]({{ site.url }}/images/food/2011-02-07-potatis-och-purjoloksoppa.png)
 
 >* Portioner: 3
 >* Tillagningstid: 30 minuter

@@ -4,7 +4,7 @@ title: Currybulgur
 category: food
 ---
 
-![Food](/images/food/no_image.png)
+![Food]({{ site.url }}/images/food/no_image.png)
 
 >* Portioner: 4
 >* Tillagningstid: 15 minuter
@@ -13,6 +13,7 @@ category: food
 Antal | Ingrediens                | ICA
 ----- | ------------------------- | ---
 2 dl  | Bulgur                    | x
+1     | Tärning grönsaksbuljong   | x
 5 dl  | Frysta wokgrönsaker       | x
 2     | Bananer                   | x
 1 tsk | Curry                     | x
@@ -21,7 +22,6 @@ Antal | Ingrediens                | ICA
       | Salt och peppar           | x
 1 dl  | Naturell yoghurt          | x
 1 msk | Kokos till garnering      | x
-1     | Tärning grönsaksbuljong   | x
 
 Tillagning
 ----------

@@ -4,7 +4,7 @@ title: Afrikansk kikärtsgryta
 category: food
 ---
 
-![Food](/images/food/2011-02-03-afrikansk-kikartsgryta.png)
+![Food]({{ site.url }}/images/food/2011-02-03-afrikansk-kikartsgryta.png)
 
 >* Portioner: 4
 >* Tillagningstid: 15 minuter

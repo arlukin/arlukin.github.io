@@ -5,7 +5,7 @@ category: food
 published: false
 ---
 
-![Food](/images/food/no_image.png)
+![Food]({{ site.url }}/images/food/no_image.png)
 
 >* Portioner: xx
 >* Tillagningstid: xx minuter

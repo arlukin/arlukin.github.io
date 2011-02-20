@@ -4,7 +4,7 @@ title: Pappardelle med timjan- och svampsås
 category: food
 ---
 
-![Food](/images/food/2011-02-06-pappardelle-med-timjan-och-svampsas.png)
+![Food]({{ site.url }}/images/food/2011-02-06-pappardelle-med-timjan-och-svampsas.png)
 
 >* Portioner: 4
 >* Tillagningstid: 30 minuter

@@ -4,7 +4,7 @@ title: Tortellini med paprika och aubergine
 category: food
 ---
 
-![Food](/images/food/2011-02-08-tortellini-med-paprika-och-aubergine.png)
+![Food]({{ site.url }}/images/food/2011-02-08-tortellini-med-paprika-och-aubergine.png)
 
 >* Portioner: 2
 >* Tillagningstid: 15 minuter

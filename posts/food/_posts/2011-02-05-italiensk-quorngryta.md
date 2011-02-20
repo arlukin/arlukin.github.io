@@ -4,7 +4,7 @@ title: Italiensk quorngryta
 category: food
 ---
 
-![Food](/images/food/2011-02-05-italiensk-quorngryta.png)
+![Food]({{ site.url }}/images/food/2011-02-05-italiensk-quorngryta.png)
 
 >* Portioner: 2-4
 >* Tillagningstid: 30 minuter
