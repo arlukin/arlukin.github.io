@@ -73,7 +73,7 @@ pre {
   border: 1px solid #ddd;
 }
 
-hr {
+img, hr {
   display:none;
 }
 
@@ -129,7 +129,7 @@ table td
 /*
 /*****************************************************************************/
 #wrapper {
-  width: 560px;
+  width: 320px;
   text-align: left;
 }
 
