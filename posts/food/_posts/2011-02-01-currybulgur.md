@@ -4,7 +4,7 @@ title: Currybulgur
 category: food
 ---
 
-![Food](/images/food/no_image.png)
+![Food]({{ site.url }}/images/food/no_image.png)
 
 >* Portioner: 4
 >* Tillagningstid: 15 minuter
