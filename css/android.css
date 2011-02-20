@@ -9,7 +9,7 @@
 body {
   font-size: 75%;
   font-family: "Myriad Pro", Lucida, sans-serif;
-  margin: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 0px;
   background: #333;
   cursor: default;
 }
@@ -32,10 +32,9 @@ h6{
   font-size:140%;
   font-weight: bold;
   margin: 0px 0px 8px 0px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #333;
   font-variant:small-caps;
   text-align: left;
-  color:#fff;
 }
 
 p {
@@ -74,7 +73,7 @@ pre {
 }
 
 hr {
-  display: none;
+  display:none;
 }
 
 blockquote {
@@ -125,10 +124,79 @@ table td
 
 /*****************************************************************************/
 /*
+/* Wrapper
+/*
+/*****************************************************************************/
+#wrapper {
+  width: 1035px;
+  text-align: left;
+}
+
+/*****************************************************************************/
+/*
 /* Sidebar
 /*
 /*****************************************************************************/
 #sidebar {
+  line-height:17px;
+
+  width: 600px;
+  margin: 10px 10px 0px 10px;
+  padding: 10px 10px;
+
+  color: #333;
+  font-size: 1.2em;
+
+  background-color: #EEE;
+}
+
+#sidebar a {
+  font-weight: 100;
+}
+
+#sidebar a:hover{
+  text-decoration:none;
+}
+
+/* Headings */
+
+#header{
+  text-align:center;
+  margin: 20px 0px 20px 0px;
+}
+
+#header a{
+  font-size: 280%;
+  color: #333
+}
+
+#header p{
+  padding: 0px;
+  font-style:italic;
+}
+
+/* Menu */
+
+.menu {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+.menu h3{
+  font-size:140%;
+  margin: 0px 0px 8px 0px;
+  border-bottom: 1px solid #fff;
+  font-variant:small-caps;
+}
+
+.menu ul {
+  list-style: none;
+  padding-left: 10px;
+}
+.menu li {
+  margin-left: 0px;
+}
+
+#subscribe, #credit, #ads{
   display:none;
 }
 
@@ -139,10 +207,9 @@ table td
 /*****************************************************************************/
 
 #container {
-  float:left;
   width: 600px;
-  margin: 20px;
-  padding: 40px 50px;
+  margin: 0px 0px 0px 10px;
+  padding: 0px 10px;
 
   color: #333;
   font-size: 1.2em;
