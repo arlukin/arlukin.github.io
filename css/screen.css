@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-  padding: 1em 0 0.6em;
+  padding: 0em 0 0.6em;
   font-size: 1.4em;
 }
 
@@ -46,7 +46,7 @@ a:hover {
 }
 
 ul {
-  padding-left: 10px;
+  padding: 0em 10px 0.6em;
 }
 
 li {
@@ -63,6 +63,11 @@ pre {
   border: 1px solid #ddd;
 }
 
+hr {
+  border-bottom:1px solid #555;
+  margin: 10px 0px 10px 0px;
+}
+
 blockquote {
   margin: 0px 0px 12px 0px;
   padding: 0px 0px 0px 0px;
@@ -75,6 +80,9 @@ blockquote ul, blockquote li{
 }
 
 /* Table */
+table {
+  margin: 0px 0px 12px 0px;
+}
 
 table th
 {
@@ -177,11 +185,6 @@ table td
   margin-left: 0px;
 }
 
-.menu hr {
-  border-bottom:1px solid #555;
-  margin: 10px 0px 10px 0px;
-}
-
 /*  Subscribe */
 
 #subscribe{
@@ -254,4 +257,9 @@ table td
   color: #666;
   float: right;
   font-size: 12px;
+}
+
+#disqus img {
+  float: none;
+  padding:0px 0px 0px 0px;
 }
