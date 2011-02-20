@@ -32,9 +32,10 @@ h6{
   font-size:140%;
   font-weight: bold;
   margin: 0px 0px 8px 0px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #fff;
   font-variant:small-caps;
   text-align: left;
+  color:#fff;
 }
 
 p {
@@ -124,38 +125,22 @@ table td
 
 /*****************************************************************************/
 /*
-/* Wrapper
-/*
-/*****************************************************************************/
-#wrapper {
-  width: 1035px;
-  text-align: left;
-}
-
-/*****************************************************************************/
-/*
 /* Sidebar
 /*
 /*****************************************************************************/
 #sidebar {
+  color:#fff;
   line-height:17px;
-
-  width: 600px;
-  margin: 10px 10px 0px 10px;
-  padding: 10px 10px;
-
-  color: #333;
-  font-size: 1.2em;
-
-  background-color: #EEE;
 }
 
 #sidebar a {
+  color: #fff;
   font-weight: 100;
 }
 
 #sidebar a:hover{
   text-decoration:none;
+  color:#999;
 }
 
 /* Headings */
@@ -167,7 +152,6 @@ table td
 
 #header a{
   font-size: 280%;
-  color: #333
 }
 
 #header p{
@@ -207,10 +191,6 @@ table td
 /*****************************************************************************/
 
 #container {
-  width: 600px;
-  margin: 0px 0px 0px 10px;
-  padding: 0px 10px;
-
   color: #333;
   font-size: 1.2em;
 
