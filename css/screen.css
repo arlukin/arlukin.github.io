@@ -196,10 +196,6 @@ table td
 
 /*  Subscribe */
 
-#subscribe{
- #text-align:center;
-}
-
 #subscribe .addthis_toolbox {
   display: inline;
 }
