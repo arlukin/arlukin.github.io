@@ -231,6 +231,10 @@ table td
   margin: 0px 0px 3px 3px;
 }
 
+#validsite {
+  text-align:center;
+}
+
 /*****************************************************************************/
 /*
 /* Text container
