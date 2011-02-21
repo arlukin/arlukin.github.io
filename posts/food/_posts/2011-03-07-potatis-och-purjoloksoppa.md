@@ -13,15 +13,16 @@ category: food
 
 Antal    | Ingrediens                | ICA
 -------- | ------------------------- | ---
-2        | Normalstora purjolökar    | x
-4-5      | Potatisar                 | x
-½ tsk    | Dragon                    | x
-1 knippe | Färsk timjan              | x
-2        | Buljongtärningar          | x
-5 dl     | Sojamjölk                 | x
-5 dl     | Vatten                    | x
-         | Svartpeppar               | x
-         | Olivolja                  | x
+2        | Normalstora purjolökar    | 11
+4-5      | Potatisar                 | 5
+½ tsk    | Dragon                    | -
+1 knippe | Färsk timjan              | 20
+2        | Buljongtärningar          | 1
+5 dl     | Sojamjölk                 | 9
+5 dl     | Vatten                    | -
+         | Svartpeppar               | -
+         | Olivolja                  | -
+         | TOTALT                    | 46
 
 Tillagning
 ----------

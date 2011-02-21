@@ -12,19 +12,20 @@ category: food
 
 Antal | Ingrediens                | ICA
 ----- | ------------------------- | ---
-1     | Hackad gul lök            | x
-300 g | Kokta kikärtor            | x
-50 g  | Cashewnötter              | x
-400g  | Coctailtomater            | x
+1     | Hackad gul lök            | 1,25
+300 g | Kokta kikärtor            | 18
+50 g  | Cashewnötter              | 6,45
+400g  | Coctailtomater            | 17
 3 msk | Jordnötssmör              | x
-2 dl  | Grönsaksbuljong           | x
-      | Curry                     | x
-      | Oregano                   | x
-      | Chilipeppar               | x
-      | Salt                      | x
-      | Svartpeppar               | x
-      | Socker                    | x
-      | Ris                       | x
+2 dl  | Grönsaksbuljong           | 1
+      | Curry                     | -
+      | Oregano                   | -
+      | Chilipeppar               | -
+      | Salt                      | -
+      | Svartpeppar               | -
+      | Socker                    | -
+      | Ris                       | 5
+      | TOTALT                    | (48.7)
 
 Tillagning
 ----------

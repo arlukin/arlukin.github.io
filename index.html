@@ -2,10 +2,10 @@
 layout: default
 title: Arlukin Articles
 ---
-{% assign first_post = site.posts.first %}
+{% assign last_post = site.posts.last %}
 
-<h1><a href="{{ first_post.url }}">{{ first_post.title }}</a><br/><abbr>{{ first_post.date | date_to_string }}</abbr></h1>
+<h1><a href="{{ last_post.url }}">{{ last_post.title }}</a><br/><abbr>{{ last_post.date | date_to_string }}</abbr></h1>
 
-{{ first_post.content }}
+{{ last_post.content }}
 
 

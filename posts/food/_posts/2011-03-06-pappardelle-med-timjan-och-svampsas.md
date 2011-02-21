@@ -13,29 +13,29 @@ category: food
 Antal | Ingrediens                | ICA
 ----- | ------------------------- | ---
 250 g | Pappardelle (pasta)       | x
-250 g | Champinjoner              | x
+250g  | Broccolibuketter          | 20
+250 g | Champinjoner              | 6.25
 250 g | Trattkantareller          | x
-2     | Gula lökar                | x
-1     | Klyfta vitlök             | x
-2 dl  | Sojagrädde                | x
-1 dl  | Sojamjölk                 | x
-2 st  | Broccolibuketter          | x
-      | Olja till stekning        | x
-      | Timjan                    | x
-      | Svartpeppar               | x
-      | Salt                      | x
-      | Saften från ½ citron      | x
-      | Ciabatta                  | x
-      | Vitlök                    | x
+2     | Gula lökar                | 2,25
+2     | Klyfta vitlök             | 1
+2 dl  | Sojagrädde                | 14
+1 dl  | Sojamjölk                 | 2.19
+      | Olja till stekning        | -
+      | Timjan                    | -
+      | Svartpeppar               | -
+      | Salt                      | -
+      | Saften från ½ citron      | 2.50
+2     | Ciabatta                  | 16
+      | TOTALT                    | (70)
 
 Tillagning
 ----------
 * Koka upp pastan.
-* Hacka löken och dela champinjonerna i kvartar. Dela broccolin i
-  småbuketter.
+*
+* Hacka löken och dela champinjonerna i kvartar, dela broccolin i småbuketter.
 * Värm oljan i en stekpanna och stek champinjonerna hårt, lägg i
   trattkantarellerna på slutet. Tillsätt löken och låt den mjukna.
-* Pressa ner vitlöken i såsen. Häll i grädde och mjölk samt krydda med
+* Pressa ner vitlöken i stekpannan. Häll i grädde och mjölk samt krydda med
   timjan, peppar och salt. Låt puttra lite och smaka av med citronsaften.
 * Lägg i broccolin.
 * Blanda sås och pasta när både broccolin och pastan är al dente.

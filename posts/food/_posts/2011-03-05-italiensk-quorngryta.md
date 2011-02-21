@@ -12,12 +12,14 @@ category: food
 
 Antal | Ingrediens                    | ICA
 ----- | ----------------------------- | ---
-1 påse| Quornbitar                    | x
-250 g | Spenat                        | x
-2     | Vitlöksklyftor                | x
-8 s   | Soltorkade marinerade tomater | x
-2.5dl | Sojagrädde                    | x
-      | Salt & svartpeppar            | x
+      | Tagliatelle fullkorn          | 5
+1 påse| Quornbitar                    | 40
+250 g | Spenat                        | 10
+2     | Vitlöksklyftor                | 1
+8 s   | Soltorkade marinerade tomater | 12
+2.5dl | Sojagrädde                    | 14
+      | Salt & svartpeppar            | -
+      | TOTALT                        | (82)
 
 Tillagning
 ----------
