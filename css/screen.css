@@ -210,10 +210,16 @@ table td
 /* Credits */
 
 #credit{
-  text-align:center;
-
-  color:#555;
   font-size:85%;
+  background: #333;
+  color:#555;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  left: 0px;
+  bottom: 0px;
+  position:fixed;
+  z-index: 2000000000;
 }
 
 #credit a{
