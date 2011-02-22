@@ -49,6 +49,27 @@
           {% endfor %}
         </ul>
 
+        <h6>Development</h6>
+        <ul>
+          {% for post in site.categories.development %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+
+        <h6>Linux</h6>
+        <ul>
+          {% for post in site.categories.linux %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+
+        <h6>Other</h6>
+        <ul>
+          {% for post in site.categories.other %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+
       </div>
       <!-- Menu - End-->
 
