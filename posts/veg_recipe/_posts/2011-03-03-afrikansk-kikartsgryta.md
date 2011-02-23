@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Afrikansk kikärtsgryta
-category: food
 ---
 
 ![Food]({{ site.url }}/images/food/2011-02-03-afrikansk-kikartsgryta.png)

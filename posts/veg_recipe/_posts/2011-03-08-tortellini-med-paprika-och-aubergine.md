@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Tortellini med paprika och aubergine
-category: food
 ---
 
 ![Food]({{ site.url }}/images/food/2011-03-08-tortellini-med-paprika-och-aubergine.png)

@@ -42,13 +42,6 @@
       <!-- Menu - Begin -->
       <div class="menu">
 
-        <h6>Food</h6>
-        <ul>
-          {% for post in site.categories.food %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
-
         <h6>Development</h6>
         <ul>
           {% for post in site.categories.development %}
@@ -59,6 +52,27 @@
         <h6>Linux</h6>
         <ul>
           {% for post in site.categories.linux %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+
+        <h6>Business</h6>
+        <ul>
+          {% for post in site.categories.business %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+
+        <h6>Body & Soul system</h6>
+        <ul>
+          {% for post in site.categories.body_and_soul_system %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+
+        <h6>Veg recipe</h6>
+        <ul>
+          {% for post in site.categories.veg_recipe %}
             <li><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>

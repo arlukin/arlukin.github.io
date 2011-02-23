@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Potatis- och purjolökssoppa
-category: food
 ---
 
 ![Food]({{ site.url }}/images/food/2011-02-07-potatis-och-purjoloksoppa.png)

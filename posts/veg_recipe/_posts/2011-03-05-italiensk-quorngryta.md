@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Italiensk quorngryta
-category: food
 ---
 
 ![Food]({{ site.url }}/images/food/2011-02-05-italiensk-quorngryta.png)

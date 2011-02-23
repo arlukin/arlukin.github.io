@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Currybulgur
-category: food
 ---
 
 ![Food]({{ site.url }}/images/food/no_image.png)

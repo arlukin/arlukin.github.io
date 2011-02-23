@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Quornfärsbiffar med rödbetsslaw
-category: food
 ---
 
 ![Food]({{ site.url }}/images/food/2011-02-09-quornfarsbiffar-med-rodbetsslaw.png)

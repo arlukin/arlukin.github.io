@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Rosmarinstekta Quorn Filéer
-category: food
 ---
 
 ![Food]({{ site.url }}/images/food/2011-02-11-rosmarinstekta-quorn-fileer.png)

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Carinas linsbologe
-category: food
 published: false
 ---
 

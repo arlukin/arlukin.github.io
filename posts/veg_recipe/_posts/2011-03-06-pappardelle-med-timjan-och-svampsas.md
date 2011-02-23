@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Pappardelle med timjan- och svampsås
-category: food
 ---
 
 ![Food]({{ site.url }}/images/food/2011-03-06-pappardelle-med-timjan-och-svampsas.png)
