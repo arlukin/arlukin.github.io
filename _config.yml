@@ -1,4 +1,4 @@
-url: http://arlukin.github.com
+url: http://articles.cybercow.se
 file_url: http://cybercow.se/projects
 permalink: /:categories/:year/:month/:day/:title
 markdown: rdiscount
