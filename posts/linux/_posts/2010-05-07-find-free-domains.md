@@ -24,17 +24,17 @@ didn’t find anything I liked. So I thought that this is something that
 I can write myself in 30-60 minutes. But hell I was wrong, it took me
 about 10 hours, and I still can’t understand why. It’s so simple.
 
-You can download the script [here]({{ site.url }}/projects/freedomains/freedomains.sh)
-and [view]({{ site.url }}/projects/freedomains/freedomains.sh.txt) it here, and the
+You can download the script [here]({{ site.file_url }}/freedomains/freedomains.sh)
+and [view]({{ site.file_url }}/freedomains/freedomains.sh.txt) it here, and the
 result after a 30 hours run can be downloaded
-[here]({{ site.url }}/projects/freedomains/freedomains.txt.zip).
+[here]({{ site.file_url }}/freedomains/freedomains.txt.zip).
 
 The script uses [pcntl_fork](http://www.php.net/manual/en/function.pcntl-fork.php)
 so your php installation needs to be compiled with –enable-pcntl, you
 can read more [here](http://www.php.net/manual/en/pcntl.installation.php).
 You also need to have the phpwhois from [www.phpwhois.org/](http://www.phpwhois.org/)
 installed in the same directory as the script. I did use phpwhois-4.1.3.tar.gz
-and have a mirror of that file [here](/projects/freedomains/phpwhois-4.1.3.tar.gz),
+and have a mirror of that file [here]({{ site.file_url }}/freedomains/phpwhois-4.1.3.tar.gz),
 just to be sure the right installation will be available in case future
 releases will not work with my script.
 

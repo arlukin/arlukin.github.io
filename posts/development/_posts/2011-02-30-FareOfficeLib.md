@@ -14,17 +14,17 @@ that code into the FareOfficeLib trunk. This will take sometime, so be
 patient. Another goal is that all code in the FareOfficeLib should be
 well written and documented.
 
-[Click here]({{ site.url }}/projects/fareofficelib/doc/) for the manual.
+[Click here]({{ site.file_url }}/fareofficelib/doc/) for the manual.
 
 ## Installation
 
 ### Step 1: Download and extract the code
 
-[Download fareoffice0.4.tar.gz here.]({{ site.url }}/projects/fareofficelib/fareofficelib0.4.tar.gz)
+[Download fareoffice0.4.tar.gz here.]({{ site.file_url }}/fareofficelib/fareofficelib0.4.tar.gz)
 
     # Change the folder to your document_root.
     cd /var/www
-    wget {{ site.url }}/projects/fareofficelib/fareofficelib0.4.tar.gz
+    wget {{ site.file_url }}/fareofficelib/fareofficelib0.4.tar.gz
     tar zxf fareofficelib0.4.tar.gz
     rm fareofficelib0.4.tar.gz
 

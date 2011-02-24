@@ -5,7 +5,7 @@ title: Anställningsintervju
 
 Det här är ett anställnings-intervju manus som jag använt vid olika anställningar på [Fareoffice Car Rental Solutions](www.fareoffice.com). Jag började skriva på det omkring 2002-2003 när vi började hålla våra första anställningar. Många av de texter/meningar som finns med i manuset kommer ifrån andra siter, om ni känner igen några meddela mig gärna. För det var länge sedan jag kopierade ifrån dessa siter, så jag minns dom inte. Min intention när det skrevs var att endast använda det internt. Men nu när jag ändå lagt ner lite tid på det, kan jag lika gärna lägga det här och hoppas att någon annan har användning för det också.
 
-[Klicka här]({{ site.url }}/projects/documents/intervju.pdf) för att ladda ner manuset som pdf.
+[Klicka här]({{ site.file_url }}/documents/intervju.pdf) för att ladda ner manuset som pdf.
 
 ## Förberedelser
 

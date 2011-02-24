@@ -4,9 +4,9 @@ title: Arlukin Articles
 ---
 
 [Welcome]({{ site.url }})<br/><abbr>14 Jan 2011</abbr>
-=================================================================
+======================================================
 
-![Time to get some work done, bring the chainsaw.](/projects/images/chainsaw.jpg "Time to get some work done, bring the chainsaw.")
+![Time to get some work done, bring the chainsaw.]({{ site.file_url }}/images/chainsaw.jpg "Time to get some work done, bring the chainsaw.")
 Welcome to my public information store, where I will publish
 Swedish & English articles related to projects I'm involved in.
 Instead of writing notes and text and store them privately on my
