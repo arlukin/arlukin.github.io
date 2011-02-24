@@ -5,3 +5,39 @@ layout: default
 <h1><a href="{{ first_post.url }}">{{ page.title }}</a><br /><abbr>{{ page.date | date_to_string }}</abbr></h1>
 
 {{ content }}
+
+<hr />
+
+<!-- Related Posts - Begin -->
+<div id="related">
+  <h2>Relaterade artiklar</h2>
+  <ul class="related">
+    {% for post in site.related_posts limit:3 %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a><abbr>{{ post.date | date_to_string }}</abbr></li>
+    {% endfor %}
+  </ul>
+</div>
+<!-- Related Posts - End -->
+
+<hr />
+
+<!-- Disqus - Begin -->
+<div id="disqus">
+  <div id="disqus_thread"></div>
+  <h2>Kommentarer</h2>
+
+  <script type="text/javascript">
+      var disqus_shortname = 'arlukinarticles';
+
+      // var disqus_identifier = 'unique_dynamic_id_1234';
+      var disqus_url = 'http://arlukin.github.com{{page.url}}';
+
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript><p>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></p></noscript>
+</div>
+<!-- Disqus - End -->
