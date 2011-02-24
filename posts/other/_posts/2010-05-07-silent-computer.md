@@ -108,4 +108,4 @@ PSU  calculator: <a href="http://www.antec.outervision.com/PSUEngine">http://www
 
 ## Assembly
 
-Here is <a href="/projects/silent_computer/HFX_1024/">Medium  pictures</a> and <a href="/projects/silent_computer/HFX_FullSize/">Hires  pictures</a> from the assembly.
+Here is <a href="{{ site.url }}/projects/silent_computer/HFX_1024/">Medium  pictures</a> and <a href="{{ site.url }}/projects/silent_computer/HFX_FullSize/">Hires  pictures</a> from the assembly.

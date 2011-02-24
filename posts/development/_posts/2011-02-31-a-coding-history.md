@@ -10,8 +10,8 @@ hard drive for a decade.
 This is a simple English/Swedish language training program. I did
 write it to learn more about ODBC/Database applications in MVC++.
 
-#### 971211 – The Other Side 1.04.100 [(download)]({{ site.url }}/projects/a_coding_history/971211_Tos_1.04.100o.zip) [(download src)]({{ site.url }}/projects/a_coding_history/971211_Tos_1.04.100o_src.tar.gz) [(read more)]({{ site.url }}/2009120565/articles/development/tos-game-editor.html)
-This a a game developer editor for 2D games.
+#### 971211 – The Other Side 1.04.100 [(download)]({{ site.url }}/projects/a_coding_history/971211_Tos_1.04.100o.zip) [(download src)]({{ site.url }}/projects/a_coding_history/971211_Tos_1.04.100o_src.tar.gz) [(read more)]({{ site.url }}/posts/development/1997/12/11/tos/)
+This a game developer editor for 2D games.
 
 #### 971022 – KillAPP [(download)]({{ site.url }}/projects/a_coding_history/971022_KillAPP.zip)
 This program was made to fool [Nebol](http://www.nebol.se/) when he where

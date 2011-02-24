@@ -8,19 +8,6 @@ layout: default
 
 <hr />
 
-<!-- Related Posts - Begin -->
-<div id="related">
-  <h2>Relaterade artiklar</h2>
-  <ul class="related">
-    {% for post in site.related_posts limit:3 %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a><abbr>{{ post.date | date_to_string }}</abbr></li>
-    {% endfor %}
-  </ul>
-</div>
-<!-- Related Posts - End -->
-
-<hr />
-
 <!-- Disqus - Begin -->
 <div id="disqus">
   <div id="disqus_thread"></div>

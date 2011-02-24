@@ -24,9 +24,10 @@ didn’t find anything I liked. So I thought that this is something that
 I can write myself in 30-60 minutes. But hell I was wrong, it took me
 about 10 hours, and I still can’t understand why. It’s so simple.
 
-You can download the script [here](/projects/freedomains/freedomains.sh)
-and [view](/projects/freedomains/freedomains.sh.txt) it here, and the
-result aftera 30 hours run can be downloaded [here](/projects/freedomains/freedomains.txt.zip).
+You can download the script [here]({{ site.url }}/projects/freedomains/freedomains.sh)
+and [view]({{ site.url }}/projects/freedomains/freedomains.sh.txt) it here, and the
+result after a 30 hours run can be downloaded
+[here]({{ site.url }}/projects/freedomains/freedomains.txt.zip).
 
 The script uses [pcntl_fork](http://www.php.net/manual/en/function.pcntl-fork.php)
 so your php installation needs to be compiled with –enable-pcntl, you

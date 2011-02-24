@@ -189,4 +189,4 @@ To identify pointed finger and mouse click (thumb movement), I got  the blob of 
 
 #### Mouse /Track ball
 
-<a href="http://www.dealextreme.com/details.dx/sku.2695">http://www.dealextreme.com/details.dx/sku.2695</a></div>
+<a href="http://www.dealextreme.com/details.dx/sku.2695">http://www.dealextreme.com/details.dx/sku.2695</a>

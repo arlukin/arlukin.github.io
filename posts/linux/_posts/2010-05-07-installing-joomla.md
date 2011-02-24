@@ -3,7 +3,12 @@ layout: post
 title: Installing Joomla
 ---
 
-This article describes very rough how I created this Joomla site. I have
+This article describes very rough how I created Arlukin Articles in
+Joomla. The Joomla version is not alive any longer and two other
+versions has existed after that. One in [wordpress](http://wordpress.org/)
+and currently with [Jekyll](https://github.com/mojombo/jekyll#readme).
+
+I have
 done it in a step by step form, so it should be possible to just repeat
 all my steps and get a nice working Joomla site. Of course you don’t
 even need to go through all these steps to get your Joomla site up and
@@ -30,7 +35,7 @@ Rewrites your URLs, meta tags etc to make your webpage more searchengine friendl
 
 Adds a comment area below every article on the site. So visiters of the site can comment what I have been writing.
 
-### [Motherbot template](http://www.themes-online.com/2009/03/motherbot-joomla/
+### [Motherbot template](http://www.themes-online.com/2009/03/motherbot-joomla/)
 
 The template I have based the webpage on. Slightly modified, I hope that is okay with the guys at http://joomla.server-germany.de/ that did the template.
 
@@ -63,10 +68,11 @@ Email: articles at cybercow dot se
 * Click “Install sample data”
 * Click next
 
-    rm -R installation/
-    rm INSTALL.php
-    sudo chown -R www-data:www-data .
-    mv htaccess.txt .htaccess
+
+      rm -R installation/
+      rm INSTALL.php
+      sudo chown -R www-data:www-data .
+      mv htaccess.txt .htaccess
 
 ## Remove old data
 
@@ -116,15 +122,12 @@ Email: articles at cybercow dot se
 
 * Click “#” to select all check boxes
 * Click Delete
-
 * Click Categories
 * Click “#” to select all check boxes
 * Click Delete
-
 * Click New
 * Title: What’s new
 * Click Save
-
 * Click Feeds
 * Click New
 * Name
@@ -225,26 +228,21 @@ Section ordering: By order as set in administration
 * Click Site tab
 * Write Global site Meta desc
 * Write Global Site Meta Keywords
-
 * Search Engine Friendly URL: yes
 * Use Apache mod_rewrite: Yes
 * Add suffix to URLs: yes
-
 * Click system tab
 * Allow User Registration: No
 * New User Account Activation: No
 * Front-end User Parameters: No
-
 * Click server tab
 * Time zone: UTC +1
-
 * Click save
 
 ### Choose “Components – Polls”
 
 * Click check box for “Joomla is used for?”
 * Click delete
-
 * Click new
 Title/Alias: This site
 Published: yes
@@ -255,7 +253,6 @@ Options: “Is crap”, “Is good”, “I’ll be back”
 
 * Click “#” all Text ads but Joomla
 * Click delete
-
 * Click joomla
 Title: Hyra fritidshus
 Custom Banner Code: ….
@@ -275,7 +272,6 @@ Enabled: Yes
 Position: Right
 Menus: All
 * Click Save
-
 * Choose User Menu
 Position:Right
 Click Save
@@ -284,19 +280,16 @@ Position: Right
 Menus: All
 Poll: This site
 * Click save
-
 * Choose Advertisement
 Show title: no
 Menus: all
 Footer text: [remove]
 * Click save
-
 * Choose Random Image
 Show title: no
 Menus all
 Image folder: images/stories
 * Click save
-
 * Choose Latest news
 Title: Latest Articles
 Position:right
@@ -305,10 +298,8 @@ Enabled: yes
 Order: Recently modified first
 Menus: all
 * Click save
-
 * Choose “Who’s Online”, “Footer”, “Statistics”, “Archive”, “Sections”, “Related Items”, “Wrapper”, “Feed display”, “Main menu”, “breadcrumbs”, “News flash”, “Popular”
 * Click Delete
-
 * Change the orders for the componets to reflect this order.
 Latest Articles
 Articles
@@ -337,7 +328,6 @@ Show title: No
 Position: Right
 Menus: All
 * Click Save
-
 * Order field for Sponsored Links 10
 Click floppy to save.
 
@@ -397,7 +387,6 @@ Insert h1 tags: yes
 
 * Browse the “ChronoComents…. Express Install” file
 * Click Update file & Install
-
 * Browse the “mod_chronocomments” file
 * Click Update file & Install
 

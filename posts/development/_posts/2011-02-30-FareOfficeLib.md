@@ -16,25 +16,25 @@ well written and documented.
 
 [Click here]({{ site.url }}/projects/fareofficelib/doc/) for the manual.
 
-# Installation
+## Installation
 
-## Step 1: Download and extract the code
+### Step 1: Download and extract the code
 
-[Download fareoffice0.4.tar.gz here.](http://articles.cybercow.se/w/projects/fareofficelib/fareofficelib0.4.tar.gz)
+[Download fareoffice0.4.tar.gz here.]({{ site.url }}/projects/fareofficelib/fareofficelib0.4.tar.gz)
 
     # Change the folder to your document_root.
     cd /var/www
-    wget http://articles.cybercow.se/projects/fareofficelib/fareofficelib0.4.tar.gz .
+    wget {{ site.url }}/projects/fareofficelib/fareofficelib0.4.tar.gz
     tar zxf fareofficelib0.4.tar.gz
     rm fareofficelib0.4.tar.gz
 
-## Step 2: Try the code
+### Step 2: Try the code
 
 Change the path in fareofficelib/.htaccess Browse the file
 http://localhost/fareofficelib/UnitTestHtDocs/index.php
 Click [RUN ALL TESTS] to see that the lib works on your server.
 
-## Step 3: Move the code to the right folders.
+### Step 3: Move the code to the right folders.
 
 In the fareofficelib folder you find 3 different folders.
 
