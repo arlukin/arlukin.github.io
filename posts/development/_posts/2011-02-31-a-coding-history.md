@@ -6,6 +6,24 @@ title: A Coding History
 This is a list of some of my early work, that has been stored on my
 hard drive for a decade.
 
+#### 051026 - jeFace
+This a small java midlet "Tamagochi" app, that I did to test to write
+applications for my cellphone. The application shows a picture of
+[nebol](www.nebol.se), and then the user can click a couple of buttons
+to feed him etc.
+
+#### 040118 - Total Firepower [(github src)](https://github.com/arlukin/dev/tree/master/totalFirePower)
+When I was in seven or eigth grade we playes the classic game
+[Firepower](http://en.wikipedia.org/wiki/Fire_Power_(video_game)),
+since then I have liked tank games. Then during late 1997 Cavedog
+entertainment released the best RTA game ever,
+[Total Annihilation](http://en.wikipedia.org/wiki/Total_Annihilation).
+A couple of years after that I started to think about writing a new
+version of the old Firepower game, based on the community units for TA.
+This is the result, nothing much. I just made it possible to load a
+map from TA and to scroll over it. (But I'm still thinking about doing
+this, maybe for the new popular ios or android platforms.)
+
 #### 971211 – ErocDarh [(download)]({{ site.file_url }}/a_coding_history/971211_Eroc_Darh_1.00.zip) [(download src)]({{ site.file_url }}/a_coding_history/971211_ErocDarh_src.tar.gz)
 This is a simple English/Swedish language training program. I did
 write it to learn more about ODBC/Database applications in MVC++.
