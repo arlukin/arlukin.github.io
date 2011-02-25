@@ -6,7 +6,26 @@ title: A Coding History
 This is a list of some of my early work, that has been stored on my
 hard drive for a decade.
 
-#### 051026 - jeFace
+#### 110212 - Fareoffice Shell [(github src)](https://github.com/arlukin/fosh)
+A bunch of sysadmin functions used at Fareoffice. The goal with this
+project is to have a script that can be executed once and then remotley
+install all servers.
+
+#### 110225 - Random shell scripts [(github src)](https://github.com/arlukin/home)
+This repo holds files that I usually have in my /home/arlukin folder.
+It can be config files, scripts etc.
+
+#### 100606 - Bluetooth spam [(github src)](https://github.com/arlukin/dev/tree/master/bluetoothSpam)
+Linux shell script that tries to send a file to all bluetooth devices
+around.
+
+#### 100416 - Amivono shop [(github src)](https://github.com/arlukin/avshop)
+This is a C++ based webshop I started (never finished) to write on,
+when experimenting with [c++ Web Toolkit](http://www.webtoolkit.eu/wt)
+and doing webapplications in C++. I was thinking about to use it to
+sell Z-Wave devices for home automation.
+
+#### 051026 - jeFace [(github src)](https://github.com/arlukin/dev/tree/master/jeFace%201.1)
 This a small java midlet "Tamagochi" app, that I did to test to write
 applications for my cellphone. The application shows a picture of
 [nebol](www.nebol.se), and then the user can click a couple of buttons
