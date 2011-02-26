@@ -1,5 +1,5 @@
 url: http://arlukin.cybercow.se
 file_url: http://cybercow.se/projects
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:categories/:title
 markdown: rdiscount
 pygments: true
