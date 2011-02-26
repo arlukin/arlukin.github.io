@@ -11,14 +11,15 @@ title: Tortellini med paprika och aubergine
 
 Antal | Ingrediens                | ICA
 ----- | ------------------------- | ---
-      | Tortellini                | x
-      | Kelda ostsås med tomat    | x
-1/2   | Röd paprika               | x
-1     | Aubergine                 | x
-2     | Tomater                   | x
-1     | Chili                     | x
-      | Persilja                  | x
-      | Olivolja                  | x
+      | Tortellini                | 27
+      | Kelda ostsås med tomat    | 24
+1/2   | Röd paprika               | 5
+1     | Aubergine                 | 10
+2     | Tomater                   | 6
+1     | Chili                     | -
+      | Persilja                  | -
+      | Olivolja                  | -
+      | TOTALT                    | 72
 
 Tillagning
 ----------

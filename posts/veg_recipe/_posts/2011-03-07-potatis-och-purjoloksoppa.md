@@ -9,7 +9,6 @@ title: Potatis- och purjolökssoppa
 >* Tillagningstid: 30 minuter
 >* Inspirerad av: [vegetariskt](http://www.vegetariskt.com/visarecept.asp?ReceptID=2413)
 
-
 Antal    | Ingrediens                | ICA
 -------- | ------------------------- | ---
 2        | Normalstora purjolökar    | 11

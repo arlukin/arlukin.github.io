@@ -14,38 +14,42 @@ title: Rosmarinstekta Quorn Filéer
 
 Antal | Ingrediens                | ICA
 ----- | ------------------------- | ---
-5     | Quorn Filéer              | x
-2 msk | Rosmarin                  | x
-0,5   | Finhackad röd paprika     | x
-1 dl  | Olivolja                  | x
-      | Salt och peppar           | x
+300g  | Quorn Filéer              | 40
+2 msk | Rosmarin                  | -
+0,5   | Finhackad röd paprika     | 5
+1 dl  | Olivolja                  | -
+      | Salt och peppar           | -
+      | TOTALT                    | 45
 
 ### Ugnstekta rotfrukter
 
 Antal | Ingrediens                | ICA
 ----- | ------------------------- | ---
-2     | Palsternacka              | x
-2     | Rödbetor                  | x
-5     | Potatis                   | x
-1.5   | Röd paprika               | x
+2     | Palsternacka              | 5
+2     | Rödbetor                  | 3
+5     | Potatis                   | 3
+1.5   | Röd paprika               | 12
+      | TOTALT                    | 23
 
 ### Pepparsås
 
 Antal | Ingrediens                | ICA
 ----- | ------------------------- | ---
-2 msk | Rosépeppar                | x
-2 msk | Grönpeppar                | x
-2 msk | Svartpeppar               | x
-4 st  | Schalottenlökar           | x
-1 msk | Smör                      | x
-1 msk | Tomatpure                 | x
-2 msk | Vetemjöl                  | x
-3 dl  | Vatten                    | x
-1 tsk | Socker                    | x
-1,5 dl| Sojagrädde                | x
-1 msk | Dijonsenap                | x
-1 msk | Soja                      | x
-2 krm | Salt                      | x
+2 msk | Rosépeppar                | (20)
+2 msk | Grönpeppar                | (17)
+2 msk | Svartpeppar               | -
+4 st  | Schalottenlökar           | 10
+1 msk | Smör                      | -
+1 msk | Tomatpure                 | -
+2 msk | Vetemjöl                  | -
+3 dl  | Vatten                    | -
+1 tsk | Socker                    | -
+1,5 dl| Sojagrädde                | 11
+1 msk | Dijonsenap                | -
+1 msk | Soja                      | -
+2 krm | Salt                      | -
+      | TOTALT                    | 11
+
 
 Tillagning
 ----------

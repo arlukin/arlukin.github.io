@@ -29,6 +29,7 @@ Antal | Ingrediens                | ICA
 
 Tillagning
 ----------
+
 * Koka upp pastan.
 *
 * Hacka löken och dela champinjonerna i kvartar, dela broccolin i småbuketter.
@@ -39,7 +40,7 @@ Tillagning
 * Lägg i broccolin.
 * Blanda sås och pasta när både broccolin och pastan är al dente.
 
-TILLBEHÖR
+### Tillbehör
 
 * Skiva en ciabatta och gnid in vitlök. Ringla lite olivolja över och
   sätt in i ugn cirka 200 grader. Klart när bröden är krispiga och har

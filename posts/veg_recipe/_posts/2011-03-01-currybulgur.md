@@ -12,15 +12,16 @@ title: Currybulgur
 Antal | Ingrediens                | ICA
 ----- | ------------------------- | ---
 2 dl  | Bulgur                    | x
-1     | Tärning grönsaksbuljong   | x
-5 dl  | Frysta wokgrönsaker       | x
-2     | Bananer                   | x
-1 tsk | Curry                     | x
-0.5tsk| Spiskummin                | x
-      | Olivolja                  | x
-      | Salt och peppar           | x
-1 dl  | Naturell yoghurt          | x
-1 msk | Kokos till garnering      | x
+1     | Tärning grönsaksbuljong   | 2
+5 dl  | Frysta wokgrönsaker       | 12
+2     | Bananer                   | 10
+1 tsk | Curry                     | -
+0.5tsk| Spiskummin                | -
+      | Olivolja                  | -
+      | Salt och peppar           | -
+1 dl  | Naturell yoghurt          | 2
+1 msk | Kokos till garnering      | -
+      | TOTALT                    | (26)
 
 Tillagning
 ----------

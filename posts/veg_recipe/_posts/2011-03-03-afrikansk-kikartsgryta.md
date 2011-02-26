@@ -28,6 +28,7 @@ Antal | Ingrediens                | ICA
 
 Tillagning
 ----------
+
 * Koka ris.
 * Stek löken i botten på en kastrull, häll i tomaterna och kikärtorna.
 * Koka upp med buljongen, smaka av med kryddorna.

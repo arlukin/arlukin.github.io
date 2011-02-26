@@ -22,6 +22,7 @@ Antal | Ingrediens                    | ICA
 
 Tillagning
 ----------
+
 * Koka upp pastan.
 * Bryn Quornbitarna.
 * Skär tomaterna i mindre bitar och tillsätt dem och resten av
