@@ -164,7 +164,15 @@ table td
   font-variant:small-caps;
   text-align: left;
   color:#fff;
+  opacity:1;
 }
+
+#sidebar a:hover h6
+{
+  opacity:0.5;
+}
+
+
 /* Headings */
 
 #header{
@@ -201,12 +209,6 @@ table td
 }
 .menu li {
   margin-left: 0px;
-}
-
-/*  Subscribe */
-
-#subscribe .addthis_toolbox {
-  display: inline;
 }
 
 /*****************************************************************************/
@@ -261,6 +263,17 @@ table td
 }
 
 #accounts img {
+  opacity:1;
+  border: 0px;
+  margin: 0px;
+}
+
+#accounts a:hover img
+{
+  opacity:0.5;
+}
+
+#accounts img {
   height: 32px;
   vertical-align:bottom;
   margin: 0px 0px 3px 3px;
@@ -282,7 +295,6 @@ table td
   color: #333;
   font-size: 1.2em;
 
-  #background-color: #EEE;
   background-color: white;
 }
 
@@ -302,6 +314,12 @@ table td
   color: #666;
   float: right;
   font-size: 12px;
+}
+
+/*  Subscribe */
+
+#subscribe .addthis_toolbox {
+  display: inline;
 }
 
 #disqus img {
