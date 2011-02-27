@@ -1,4 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
   <title>{{ page.title }}</title>
@@ -17,6 +18,31 @@
   <link rel="stylesheet" type="text/css" href="/css/android.css" media="only screen and (max-device-width: 799px)" />
   <link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen and (min-device-width: 800px)" />
   <link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />
+
+  <!-- Menu collapse/expand - Begin-->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+  <script type="text/javascript" src="https://github.com/carhartl/jquery-cookie/raw/master/jquery.cookie.js"></script>
+  <script type="text/javascript" src="/js/animatedcollapse.js">
+
+    /***********************************************
+    * Animated Collapsible DIV v2.4- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+    * This notice MUST stay intact for legal use
+    * Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+    ***********************************************/
+
+  </script>
+
+  <script type="text/javascript">
+    animatedcollapse.addDiv('development', 'fade=1, persist=1')
+    animatedcollapse.addDiv('linux', 'fade=1, persist=1')
+    animatedcollapse.addDiv('business', 'fade=1, persist=1')
+    animatedcollapse.addDiv('veg_recipe', 'fade=1, persist=1')
+    animatedcollapse.addDiv('body_and_soul_system', 'fade=1, persist=1')
+    animatedcollapse.addDiv('other', 'fade=1, persist=1')
+
+    animatedcollapse.init()
+  </script>
+  <!-- Menu collapse/expand - End-->
 </head>
 
 <body>
@@ -42,48 +68,59 @@
       <!-- Menu - Begin -->
       <div class="menu">
 
-        <h6>Development</h6>
-        <ul>
-          {% for post in site.categories.development %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
+        <a href="javascript:animatedcollapse.toggle('development')" ><h6>Development</h6></a>
+        <div id="development">
+          <ul>
+            {% for post in site.categories.development %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
 
-        <h6>Linux</h6>
-        <ul>
-          {% for post in site.categories.linux %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
+        <a href="javascript:animatedcollapse.toggle('linux')"><h6>Linux</h6></a>
+        <div id="linux" style="display:none">
+          <ul>
+            {% for post in site.categories.linux %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
 
-        <h6>Business</h6>
-        <ul>
-          {% for post in site.categories.business %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
+        <a href="javascript:animatedcollapse.toggle('business')"><h6>Business</h6></a>
+        <div id="business" style="display:none">
+          <ul>
+            {% for post in site.categories.business %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
 
-        <h6>Veg recipe</h6>
-        <ul>
-          {% for post in site.categories.veg_recipe %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
+        <a href="javascript:animatedcollapse.toggle('veg_recipe')"><h6>Veg recipe</h6></a>
+        <div id="veg_recipe" style="display:none">
+          <ul>
+            {% for post in site.categories.veg_recipe %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
 
-        <h6>Body & Soul system</h6>
-        <ul>
-          {% for post in site.categories.body_and_soul_system %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
+        <a href="javascript:animatedcollapse.toggle('body_and_soul_system')"><h6>Body & Soul system</h6></a>
+        <div id="body_and_soul_system" style="display:none">
+          <ul>
+            {% for post in site.categories.body_and_soul_system %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
 
-        <h6>Other</h6>
-        <ul>
-          {% for post in site.categories.other %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
-
+        <a href="javascript:animatedcollapse.toggle('other')"><h6>Other</h6></a>
+        <div id="other" style="display:none">
+          <ul>
+            {% for post in site.categories.other %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
       <!-- Menu - End-->
 
