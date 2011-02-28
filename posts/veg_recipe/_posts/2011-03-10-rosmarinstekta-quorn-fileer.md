@@ -3,7 +3,7 @@ layout: post
 title: Rosmarinstekta Quorn Filéer
 ---
 
-![Food]({{ site.url }}/images/food/2011-02-11-rosmarinstekta-quorn-fileer.png)
+![Food]({{ site.url }}/images/food/2011-03-10-rosmarinstekta-quorn-fileer.png)
 
 >* Portioner: 4
 >* Tillagningstid: 60 minuter
