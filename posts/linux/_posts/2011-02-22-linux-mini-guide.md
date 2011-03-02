@@ -106,3 +106,6 @@ from an intel to an amd computer. You need to rebuild/reinstall the kernel.
     echo “/dev/vg_data/VolData  /opt  ext3  defaults  1 2″ >> /etc/fstab
     Execute a program periodically, showing output fullscreen
     watch “ps aux|grep mysql”
+
+### Watch changeable data continuously
+    watch -n.1 'cat /proc/interrupts'
