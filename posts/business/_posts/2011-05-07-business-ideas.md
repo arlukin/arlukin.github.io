@@ -5,6 +5,15 @@ title: Business ideas
 
 ## Things I would use myself
 
+* SweSlice, a small scale VPS service.
+  * 14120:- 1 x HP PROLIANT DL180 G6 XE L5520 2.26-8MB 4GB/160GB SATA
+  * 12900:- 12 x HP 4GB UDIMM DDR3 1333 ECC MEMORY
+  *  2800:- 4  x Western Digital Caviar Green WD20EARS 64MB 2TB
+  *   800:- COLO
+  * 30620:- TOTAL
+  *   850:- a month in 36 months.
+  * 850/8  = 106:-/month = 1 core,   6GB RAM, 500GB Raid10 HD
+  * 850/16 = 53:-/month  = 0.5 core, 3GB RAM, 250GB Raid10 HD
 * Webpage for renting summer house/apartments/cottages on weekly basis.
 * Similar idé that www.spreadshirt.com but another branch. For example
   the traveling business, everybody could set up their own Internet
