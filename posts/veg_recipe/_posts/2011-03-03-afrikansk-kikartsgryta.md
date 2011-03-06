@@ -14,9 +14,9 @@ Antal | Ingrediens                | ICA
 1     | Hackad gul lök            | 1,25
 300 g | Kokta kikärtor            | 18
 50 g  | Cashewnötter              | 6,45
-400g  | Coctailtomater            | 17
-3 msk | Jordnötssmör              | x
-2 dl  | Grönsaksbuljong           | 1
+400g  | Tomater                   | ?
+0.5   | Grönsaksbuljong           | 1
+2dl   | Vatten                    | -
       | Curry                     | -
       | Oregano                   | -
       | Chilipeppar               | -
@@ -31,7 +31,8 @@ Tillagning
 
 * Koka ris.
 * Stek löken i botten på en kastrull, häll i tomaterna och kikärtorna.
-* Koka upp med buljongen, smaka av med kryddorna.
-* Koka ca. 10 minuter, häll i nötterna när en minut återstår.
+* Koka upp med buljongen och vatten, smaka av med kryddorna.
+* Koka ca. 10 minuter, 
+* Häll på nötterna när det kokat klart.
 
 
