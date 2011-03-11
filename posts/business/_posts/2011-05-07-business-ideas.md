@@ -4,7 +4,7 @@ title: Business ideas
 ---
 
 ## Things I would use myself
-
+* SimpleWeb, SimpleLDAP, SimpleSSL, SimpleVPS, SimpleStorage. A simple web "service" for popular LINUX services. 
 * SweSlice, a small scale VPS service.
   * 14120:- 1 x HP PROLIANT DL180 G6 XE L5520 2.26-8MB 4GB/160GB SATA
   * 12900:- 12 x HP 4GB UDIMM DDR3 1333 ECC MEMORY
