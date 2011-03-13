@@ -3,7 +3,7 @@ layout: post
 title: Carinas kina wok.
 ---
 
-![Food]({{ site.url }}/images/food/2011-03-10-rosmarinstekta-quorn-fileer.png)
+![Food]({{ site.url }}/images/food/no_image.png)
 
 >* Portioner: 4
 >* Tillagningstid: 30 minuter
