@@ -4,6 +4,8 @@ title: Business ideas
 ---
 
 ## Things I would use myself
+* BookingHub, generel service where people can book them self up on things, and pay for it. Like the SMC gocart courses.
+* CottageHub, booking service for small cottages like sveaborg.cybercow.se
 * SimpleWeb, SimpleLDAP, SimpleSSL, SimpleVPS, SimpleStorage. A simple web "service" for popular LINUX services. 
 * SweSlice, a small scale VPS service.
   * 14120:- 1 x HP PROLIANT DL180 G6 XE L5520 2.26-8MB 4GB/160GB SATA
