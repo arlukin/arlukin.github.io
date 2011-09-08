@@ -26,10 +26,6 @@ Tillagning
 ----------
 
 * Koka linser i lättsaltat vatten ca 30 min
-
-* Tärna de soltorkade tomaternn.
-* Blanda med matyoghurten.
-
 * Skär auberginerna i klyftor.
 * Skala och klyfta löken.
 * Skär tomaterna i bitar.
@@ -38,3 +34,8 @@ Tillagning
 * Häll av vattnet ifrån linserna och rör ner i stekpannan.
 * Tillsätt timjan och oliver, blanda runt och ta av stekpannan ifrån spisen.
 * Servera med såsen.
+ 
+### Såsen
+
+* Tärna de soltorkade tomaternn.
+* Blanda med matyoghurten.
