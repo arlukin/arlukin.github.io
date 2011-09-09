@@ -1,37 +1,37 @@
 ---
 layout: post
-title: Lättostkaka
+title: L√§ttostkaka
 ---
 
 ![Food]({{ site.url }}/images/food/no_image.png)
 
 >* Portioner: 6-8
 >* Tillagningstid: xx minuter
->* Inspirerad av: Saras familjemat (Vi föräldrar)
+>* Inspirerad av: Saras familjemat (Vi f√∂r√§ldrar)
 
 Antal | Ingrediens                | ICA
 ----- | ------------------------- | ---
-1/2 dl| Mjöl                      |
-3/4 dl| Strösocker                |
-2 dl  | Mjölk                     |
-2     | Ägg                       |
-1 dl  | Sötmandel                 |
+1/2 dl| Mj√∂l                      |
+3/4 dl| Str√∂socker                |
+2 dl ¬†| Mj√∂lk                     |
+2     | √Ñgg                       |
+1 dl  | S√∂tmandel                 |
 500g  | Keso                      |
-      | Smör till formen          |
-      | Bär eller sylt            |
+      | Sm√∂r till formen          |
+      | B√§r eller sylt            |
       | TOTALT                    | xxx
 
 Tillagning
 ----------
 
-* Sätt ugnen på 175 grader.
-* Häll mjöl och socker i en bunke.
-* Tillsätt mjölken lite i taget, vispa slät.
-* Tilsätt äggen och forsätt vispa.
-* Hacka sötmandlarna och blanda ner.
+* S√§tt ugnen p√• 175 grader.
+* H√§ll mj√∂l och socker i en bunke.
+* Tills√§tt mj√∂lken lite i taget, vispa sl√§t.
+* Tils√§tt √§ggen och fors√§tt vispa.
+* Hacka s√∂tmandlarna och blanda ner.
 * Blanda ner keso.
-* Häll smeten i en smord ungnssäker form, ca 26 cm i diameter eller små formar
+* H√§ll smeten i en smord ungnss√§ker form, ca 26 cm i diameter eller sm√• formar
   som rymmer ca 1.5dl.
-* Grädda i mitten av ugnen ca 45 minuter för stor form oc h20 minuter för små.
-* När de börjar "stanna" och blivit gyllenbruna är de klara.
-* Servera med sylt eller bär.
+* Gr√§dda i mitten av ugnen ca 45 minuter f√∂r stor form oc h20 minuter f√∂r sm√•.
+* N√§r de b√∂rjar "stanna" och blivit gyllenbruna √§r de klara.
+* Servera med sylt eller b√§r.
