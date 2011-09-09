@@ -5,7 +5,7 @@ title: Dev articles
 
 This page includes some articles/blogs that I found interessting.
 
-### http://nvie.com/posts/a-successful-git-branching-model/
+### [http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/)
 Here is a nice and working model on how to use git for branching and releasing.
 
 ### [(http://nvie.com/posts/python-vs-ruby-survey/)]
