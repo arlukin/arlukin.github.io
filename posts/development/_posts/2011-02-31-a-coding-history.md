@@ -6,6 +6,19 @@ title: A Coding History
 Here is some of the software/projects I have created since I learned
 software development.
 
+#### 110910 - Open Archive Network [(github src)](https://github.com/oan/oand)
+A prototype of a distributed filesystem/database written in python.
+
+#### 110910 - download-github.py [(github src)](https://github.com/arlukin/cchome)
+Downloads (clone/pull) all repos for a github user, including all organizations
+(s)he is involved in. Uses the github api. I use this script to backup all
+my github repos.
+
+#### 110829 - "homenet" [(github src)](git@github.com:arlukin/homenet.git)
+At the moment only html code, for a accommodation rental system. I'm planning
+to start a web-page where people can find accommodations to rent for their
+hollidays, such as cabbins, apartments, bed&breakfast etc.
+
 #### 110226 - [arlukin.cybercow.se](http://arlukin.cybercow.se) [(github src)](https://github.com/arlukin/arlukin.github.com)
 My own blog/article website rebuild in jekyll and hosted on github.
 On this page I publish Swedish & English articles related to projects
