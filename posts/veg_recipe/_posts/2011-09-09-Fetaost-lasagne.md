@@ -6,15 +6,14 @@ title: Fetaost lasagne
 ![Food]({{ site.url }}/images/food/no_image.png)
 
 >* Portioner: 4
->* Tillagningstid: xx minuter
+>* Tillagningstid: 75-85 minuter
 >* Inspirerad av: Boken vegetarisk husmanskost
 
 Antal | Ingrediens                | ICA
 ----- | ------------------------- | ---
-300g  | Lasagneplattor            |
+250g  | Lasagneplattor            |
 2dl   | Soltorkade tomater        |
-200g  | Fetost                    |
-2-3 dl| Riven ost                 |
+150g  | Fetost                    |
       | TOTALT                    | xxx
 
 ### Spenatsåsen
@@ -36,7 +35,7 @@ Antal | Ingrediens                | ICA
 
 Antal | Ingrediens                | ICA
 ----- | ------------------------- | ---
-9 dl  | Mjölk                     |
+9 dl  | Soja mjölk                |
 1 dl  | Mjöl                      |
       | Salt                      |
       | Svartpeppar               |
@@ -53,7 +52,17 @@ Antal | Ingrediens                | ICA
       | TOTALT                    | xxx
 
 
-### Kelda pastasås (Alternativ 2)
+### Taco-lasange (Alternativ 2)
+
+Antal | Ingrediens                | ICA
+----- | ------------------------- | ---
+1     | Gul lök                   |
+300g  | Quron färs                |
+1påse | Tacokrydda                |
+250g  | Krossade tomater          |
+      | TOTALT                    | xxx
+
+### Kelda pastasås (Alternativ 3)
 
 Antal | Ingrediens                | ICA
 ----- | ------------------------- | ---
@@ -90,12 +99,10 @@ Du kan byta ut Spenatsåsen mot spenatröran. Eller byta ut bechamelsåsen mot K
 ### Lasangen
 
 * Klipp de soltorkade tomaterna i bitar.
-* Riv osten.
-* Smula sönder fetaosten.
 * Häll knappt hälften av bechaelsåsen i en ca 25x35 cm stor form.
-* Varva lasagneplattor, spenatsås, smulad fetaost och soltorkade tomater i
-  tre lager.
-* Avsluta med ett fjärde lager plattor och täck med bechamelsås och den rivna osten.
+* Varva lasagneplattor, spenatsås, och soltorkade tomater i tre lager.
+* Avsluta med ett fjärde lager plattor och täck med bechamelsås och smula
+  fetaosten överst.
 * Grädda 25-35 minuter i 225 grader.
 
 ### Spenatröra (Alternativ 1)
