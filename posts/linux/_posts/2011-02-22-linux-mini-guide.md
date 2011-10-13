@@ -108,4 +108,16 @@ from an intel to an amd computer. You need to rebuild/reinstall the kernel.
     watch “ps aux|grep mysql”
 
 ### Watch changeable data continuously
+
     watch -n.1 'cat /proc/interrupts'
+    
+### Create selinux rules    
+
+    sealert -a /var/log/audit/audit.log
+    grep tftpdir_rw_t /var/log/audit/audit.log | audit2allow -m sycocobbler > sycocobbler.te 
+    cat sycocobbler.te
+    checkmodule -M -m -o sycocobbler.mod sycocobbler.te
+    semodule_package -o sycocobbler.pp -m sycocobbler.mod
+    semodule -i sycocobbler.pp
+
+
