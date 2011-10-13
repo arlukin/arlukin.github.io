@@ -113,6 +113,7 @@ from an intel to an amd computer. You need to rebuild/reinstall the kernel.
     
 ### Create selinux rules    
 
+    yum install -y policycoreutils-python setroubleshoot-server
     sealert -a /var/log/audit/audit.log
     grep tftpdir_rw_t /var/log/audit/audit.log | audit2allow -m sycocobbler > sycocobbler.te 
     cat sycocobbler.te
