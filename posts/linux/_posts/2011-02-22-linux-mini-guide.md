@@ -11,6 +11,10 @@ title: Linux mini guide
 
     find -exec grep 10.100.50.3 {} \;|awk ‘{print $3}’ |xargs -L 1 rm
 
+### Find all 404 errors in apache error logs.
+
+    find -exec grep 404 {} \; >ERR
+    
 ### Setup ssh login without password
 
 If you like to login from computer A to computer B with ssh, without
