@@ -19,6 +19,13 @@ title: Linux mini guide
 
     sed -i 's/root/unable-to-login/g' /etc/passwd
     
+### Insert many rows into one file
+
+    cat >> /tmp/file << EOF
+    row 1
+    row 2
+    EOF
+
 ### Setup ssh login without password
 
 If you like to login from computer A to computer B with ssh, without
