@@ -17,7 +17,7 @@ title: Linux mini guide
     
 ### Replace string in a file
 
-    sed -i 's/root,unable-to-login,dc=com/g' /etc/passwd
+    sed -i 's/root/unable-to-login/g' /etc/passwd
     
 ### Setup ssh login without password
 
