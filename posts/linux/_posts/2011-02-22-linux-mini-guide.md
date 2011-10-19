@@ -15,6 +15,10 @@ title: Linux mini guide
 
     find -exec grep 404 {} \; >ERR
     
+### Replace string in a file
+
+    sed -i 's/root,unable-to-login,dc=com/g' /etc/passwd
+    
 ### Setup ssh login without password
 
 If you like to login from computer A to computer B with ssh, without
