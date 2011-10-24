@@ -136,4 +136,12 @@ from an intel to an amd computer. You need to rebuild/reinstall the kernel.
     semodule_package -o sycocobbler.pp -m sycocobbler.mod
     semodule -i sycocobbler.pp
 
+### How is centos packages build?
 
+    yumdownloader --source openldap-servers
+    rpm -Uvh openldap-servers*
+    less rpmbuild/SPECS/openldap.spec
+    
+### Extract info from an rpm.
+
+    rpm2cpio foo.rpm | cpio -idmv --no-absolute-filenames
