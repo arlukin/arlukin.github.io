@@ -145,3 +145,21 @@ from an intel to an amd computer. You need to rebuild/reinstall the kernel.
 ### Extract info from an rpm.
 
     rpm2cpio foo.rpm | cpio -idmv --no-absolute-filenames
+    
+### Install an older kernel
+
+    yum install kernel-2.6.18-238.9.1.el5
+    
+    # Make sure the older kernel will boot first.
+    cat /etc/grup.conf
+    
+    reboot
+    
+    # This might be done before reboot, to make sure that the newer kernel doesn't boot.
+    rpm -q kernel
+    yum remove kernel-2.6.18-274.7.1.el5
+    
+### Update everything except kernel
+
+    sed -i '$exclude=kernel kernel-devel kernel-headers' /etc/yum.conf 
+    yum update
