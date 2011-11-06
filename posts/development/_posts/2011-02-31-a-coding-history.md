@@ -6,6 +6,12 @@ title: A Coding History
 Here is some of the software/projects I have created since I learned
 software development.
 
+#### 111106 - Startup script for Glasfish 3.1 in python [(gist src)](https://gist.github.com/1342260)
+A python script used in linux (/etc/init.d/glassfish) to start the glassfish java application server. The unique thing with this script is that it checks for a started mysql server. The script is used by [(syco)](github.com/systemconsole/syco)
+
+#### 111010 - Startup script for Glasfish 3.1 in bash [(gist src)](https://gist.github.com/1342253)
+A bash script used in linux (/etc/init.d/glassfish) to start the glassfish java application server. The unique thing with this script is that it checks for a started mysql server. The script is used by [(syco)](github.com/systemconsole/syco)
+
 #### 110910 - Open Archive Network [(github src)](https://github.com/oan/oand)
 A prototype of a distributed filesystem/database written in python.
 
