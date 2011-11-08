@@ -163,3 +163,17 @@ from an intel to an amd computer. You need to rebuild/reinstall the kernel.
 
     sed -i '$exclude=kernel kernel-devel kernel-headers' /etc/yum.conf 
     yum update
+    
+### Add a module to /etc/sysconfig/iptables-config
+
+    # Line 1: Remove all old existing module X
+    # Line 2: Add module X
+    # Line 3: Only one whitespace between each module
+    # Line 4: No whitespaces before last "
+    # Line 5: No whitespaces before firstt "
+    sed "/IPTABLES_MODULES=/s/ip_conntrack_tftp\( \|\"\)/\1/g;
+    /IPTABLES_MODULES=/s/\"/\"ip_conntrack_tftp /;
+    /IPTABLES_MODULES=/s/\( \)\+/ /g;
+    /IPTABLES_MODULES=/s/ \"/\"/;
+    /IPTABLES_MODULES=/s/\" /\"/
+    " iptables-config 
