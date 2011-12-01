@@ -3,6 +3,14 @@ layout: post
 title: Linux mini guide
 ---
 
+### Replace string in a file, write change to file.
+
+    sed -i 's/SEARCH/REPLACE/g' /etc/passwd
+
+### Replace string in a file, show change on stdout.
+
+    sed 's/SEARCH/REPLACE/g' /etc/passwd
+
 ### Find all files except .svn that includes @todo
 
     find . -name .svn -prune -o -type f -exec grep -Hn “@todo” {} \;
@@ -14,11 +22,7 @@ title: Linux mini guide
 ### Find all 404 errors in apache error logs.
 
     find -exec grep 404 {} \; >ERR
-    
-### Replace string in a file
-
-    sed -i 's/root/unable-to-login/g' /etc/passwd
-    
+        
 ### Insert many rows into one file
 
     cat >> /tmp/file << EOF
