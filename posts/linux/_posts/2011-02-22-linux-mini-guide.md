@@ -129,7 +129,11 @@ from an intel to an amd computer. You need to rebuild/reinstall the kernel.
 ### Watch changeable data continuously
 
     watch -n.1 'cat /proc/interrupts'
-    
+
+### Log all selinux errors
+
+    semodule -DB
+
 ### Create selinux rules    
 
     yum install -y policycoreutils-python setroubleshoot-server
