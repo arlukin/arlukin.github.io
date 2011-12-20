@@ -3,6 +3,13 @@ layout: post
 title: Linux mini guide
 ---
 
+### Insert many rows into one file
+
+    cat >> /tmp/file << EOF
+    row 1
+    row 2
+    EOF
+
 ### Replace string in a file, write change to file.
 
     sed -i 's/SEARCH/REPLACE/g' /etc/passwd
@@ -21,14 +28,7 @@ title: Linux mini guide
 
 ### Find all 404 errors in apache error logs.
 
-    find -exec grep 404 {} \; >ERR
-        
-### Insert many rows into one file
-
-    cat >> /tmp/file << EOF
-    row 1
-    row 2
-    EOF
+    find -exec grep 404 {} \; >ERR        
 
 ### Setup ssh login without password
 
