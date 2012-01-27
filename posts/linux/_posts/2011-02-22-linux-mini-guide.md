@@ -3,6 +3,10 @@ layout: post
 title: Linux mini guide
 ---
 
+### Start webserver in current directory
+
+    python -m SimpleHTTPServer
+
 ### Insert many rows into one file
 
     cat >> /tmp/file << EOF
@@ -185,3 +189,7 @@ from an intel to an amd computer. You need to rebuild/reinstall the kernel.
     /IPTABLES_MODULES=/s/ \"/\"/;
     /IPTABLES_MODULES=/s/\" /\"/
     " iptables-config 
+
+### Links to useful commands
+
+    http://blog.urfix.com/25-linux-commands/
