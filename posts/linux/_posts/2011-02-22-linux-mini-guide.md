@@ -192,4 +192,6 @@ from an intel to an amd computer. You need to rebuild/reinstall the kernel.
 
 ### Links to useful commands
 
-    http://blog.urfix.com/25-linux-commands/
+[http://blog.urfix.com/25-linux-commands/](http://blog.urfix.com/25-linux-commands/)
+
+    
