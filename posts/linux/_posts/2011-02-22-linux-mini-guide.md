@@ -3,6 +3,10 @@ layout: post
 title: Linux mini guide
 ---
 
+### Start SSH tunnel
+
+    ssh -N -L 2080:localhost:80 home
+    
 ### Start webserver in current directory
 
     python -m SimpleHTTPServer
