@@ -3,6 +3,10 @@ layout: post
 title: Linux mini guide
 ---
 
+### Print the matched line, along with the 3 lines after it. case insensetive search.
+
+    grep -A 3 -i "elif" *
+
 ### Start SSH tunnel
 
     ssh -N -L 2080:localhost:80 home
