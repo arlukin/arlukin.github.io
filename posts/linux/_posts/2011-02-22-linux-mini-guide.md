@@ -3,6 +3,11 @@ layout: post
 title: Linux mini guide
 ---
 
+### Create and apply a patch
+
+    diff -uN  patchtest.txt patchtest1.txt > patchtest.patch
+    patch patchtest.txt < patchtest.patch
+
 ### Print the matched line, along with the 3 lines after it. case insensetive search.
 
     grep -A 3 -i "elif" *
