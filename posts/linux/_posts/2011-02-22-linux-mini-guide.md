@@ -3,6 +3,10 @@ layout: post
 title: Linux mini guide
 ---
 
+### Reverse tunnel ssh
+  
+     ssh -p35 -N -f -C -g -R 8022:localhost:22 root@server.com
+
 ### Create and apply a patch
 
     diff -uN  patchtest.txt patchtest1.txt > patchtest.patch
