@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Shrink /var inside a KVM quest that uses LVM and ext4.
+title: Shrink LVM/ext4 partion
 ---
 
 # Shrink /var inside a KVM quest that uses LVM and ext4.
