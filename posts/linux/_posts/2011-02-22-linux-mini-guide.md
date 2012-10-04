@@ -3,6 +3,10 @@ layout: post
 title: Linux mini guide
 ---
 
+### Display VmSize used by all apache httpd processes.
+
+     ps aux |grep httpd| cut -f 4 -d " "| xargs -n 1 -I {} cat /proc/{}/status|grep "VmSize"
+     
 ### Reverse tunnel ssh
   
      ssh -p35 -N -f -C -g -R 8022:localhost:22 root@server.com
