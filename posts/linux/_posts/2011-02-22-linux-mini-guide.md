@@ -3,6 +3,14 @@ layout: post
 title: Linux mini guide
 ---
 
+### Free disk cache.
+
+More info at http://www.linuxatemyram.com/
+
+     free -m
+     echo 3 | sudo tee /proc/sys/vm/drop_caches 
+     free -m
+
 ### Display VmSize used by all apache httpd processes.
 
      ps aux |grep httpd| cut -f 4 -d " "| xargs -n 1 -I {} cat /proc/{}/status|grep "VmSize"
