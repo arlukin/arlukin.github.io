@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quorn med dillsås
+title: Kidneybiffar
 ---
 
 ![Food]({{ site.url }}/images/food/no_image.png)
