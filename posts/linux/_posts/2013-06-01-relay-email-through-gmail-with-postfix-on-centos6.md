@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Relay email through gmail with postfix on centos6.
+title: Postfix gmail relay on centos6.
 ---
 
-Relay email through gmail with postfix on centos6.
+[Relay email through gmail with postfix on centos6.][https://gist.github.com/arlukin/5689526]
 
-The latest updated gist can be found here https://gist.github.com/arlukin/5689526
+Click the above link to get the latest gist. I will probably update both here
+and the gist. But check both anyway.
 
     #!/bin/bash
     #
