@@ -3,3 +3,5 @@ file_url: http://cybercow.se/projects
 permalink: /:categories/:title
 markdown: rdiscount
 pygments: true
+safe: true
+lsi: false
