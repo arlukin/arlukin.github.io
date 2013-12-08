@@ -6,23 +6,23 @@ title: Find free domains
 A couple of days ago I was starting to think about a new company name,
 the current Awxire AB is not as good as it could be. I like the name
 myself, but other people can hardly pronounce it or spell it, and I
-can’t blame them.
+can't blame them.
 
-What I’m looking for is something short, just one word, easy to
+What I'm looking for is something short, just one word, easy to
 pronounce, easy to spell, sound good both in english and Swedish, start
 with an "A" to get a high position in alphabetical ordered lists, if
-possible it shouldn’t generate any hits on google (so I easily can find
+possible it shouldn't generate any hits on google (so I easily can find
 all internet relations to the company), if possible tell something about
-the company but not to much (if I’d like to change products in the future,
+the company but not to much (if I'd like to change products in the future,
 Smart Home System is not a good name for an oil company) and the .
 com domain should be free.
 
 The last requirement gave me the idea to write a short php script, to
 check all available .com addresses from a.com to azzzz.com wich is about
 456976 domains. I did some googling first for a script like this, but
-didn’t find anything I liked. So I thought that this is something that
+didn't find anything I liked. So I thought that this is something that
 I can write myself in 30-60 minutes. But hell I was wrong, it took me
-about 10 hours, and I still can’t understand why. It’s so simple.
+about 10 hours, and I still can't understand why. It's so simple.
 
 You can download the script [here]({{ site.file_url }}/freedomains/freedomains.sh)
 and [view]({{ site.file_url }}/freedomains/freedomains.sh.txt) it here, and the

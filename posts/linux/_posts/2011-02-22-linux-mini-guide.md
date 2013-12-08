@@ -8,15 +8,15 @@ title: Linux mini guide
 More info at http://www.linuxatemyram.com/
 
      free -m
-     echo 3 | sudo tee /proc/sys/vm/drop_caches 
+     echo 3 | sudo tee /proc/sys/vm/drop_caches
      free -m
 
 ### Display VmSize used by all apache httpd processes.
 
      ps aux |grep httpd| cut -f 4 -d " "| xargs -n 1 -I {} cat /proc/{}/status|grep "VmSize"
-     
+
 ### Reverse tunnel ssh
-  
+
      ssh -p35 -N -f -C -g -R 8022:localhost:22 root@server.com
 
 ### Create and apply a patch
@@ -31,7 +31,7 @@ More info at http://www.linuxatemyram.com/
 ### Start SSH tunnel
 
     ssh -N -L 2080:localhost:80 home
-    
+
 ### Start webserver in current directory
 
     python -m SimpleHTTPServer
@@ -53,15 +53,15 @@ More info at http://www.linuxatemyram.com/
 
 ### Find all files except .svn that includes @todo
 
-    find . -name .svn -prune -o -type f -exec grep -Hn “@todo” {} \;
+    find . -name .svn -prune -o -type f -exec grep -Hn "@todo” {} \;
 
 ### Find all files including the ip 10.100.50.3 and delete them.
 
-    find -exec grep 10.100.50.3 {} \;|awk ‘{print $3}’ |xargs -L 1 rm
+    find -exec grep 10.100.50.3 {} \;|awk ‘{print $3}' |xargs -L 1 rm
 
 ### Find all 404 errors in apache error logs.
 
-    find -exec grep 404 {} \; >ERR        
+    find -exec grep 404 {} \; >ERR
 
 ### Setup ssh login without password
 
@@ -88,7 +88,7 @@ enter a passphrase:
     a@A:~> cat .ssh/id_rsa.pub | ssh b@B 'cat >> .ssh/authorized_keys'
     b@B's password:
 
-Now it’s possible to login to B from A with user a and no password.
+Now it's possible to login to B from A with user a and no password.
 
     a@A:~> ssh b@B hostname
     B
@@ -142,7 +142,7 @@ Click [here](http://www.pixelbeat.org/cmdline.html) or
 If the kernel is damaged, or as in my case you like to move a hard drive
 from an intel to an amd computer. You need to rebuild/reinstall the kernel.
     boot the centos installation cd/dvd
-    Type “linux rescue” in the boot menu
+    Type "linux rescue” in the boot menu
     Click next, next, next (connect to the network)
     When in the shell type
     chroot /mnt/sysimage
@@ -155,9 +155,9 @@ from an intel to an amd computer. You need to rebuild/reinstall the kernel.
     lvcreate -n VolData -L 50G vg_data
     mke2fs -j /dev/vg_data/VolData
     mount /dev/vg_data/VolData /opt
-    echo “/dev/vg_data/VolData  /opt  ext3  defaults  1 2″ >> /etc/fstab
+    echo "/dev/vg_data/VolData  /opt  ext3  defaults  1 2″ >> /etc/fstab
     Execute a program periodically, showing output fullscreen
-    watch “ps aux|grep mysql”
+    watch "ps aux|grep mysql”
 
 ### Watch changeable data continuously
 
@@ -167,11 +167,11 @@ from an intel to an amd computer. You need to rebuild/reinstall the kernel.
 
     semodule -DB
 
-### Create selinux rules    
+### Create selinux rules
 
     yum install -y policycoreutils-python setroubleshoot-server
     sealert -a /var/log/audit/audit.log
-    grep tftpdir_rw_t /var/log/audit/audit.log | audit2allow -m sycocobbler > sycocobbler.te 
+    grep tftpdir_rw_t /var/log/audit/audit.log | audit2allow -m sycocobbler > sycocobbler.te
     cat sycocobbler.te
     checkmodule -M -m -o sycocobbler.mod sycocobbler.te
     semodule_package -o sycocobbler.pp -m sycocobbler.mod
@@ -182,29 +182,29 @@ from an intel to an amd computer. You need to rebuild/reinstall the kernel.
     yumdownloader --source openldap-servers
     rpm -Uvh openldap-servers*
     less rpmbuild/SPECS/openldap.spec
-    
+
 ### Extract info from an rpm.
 
     rpm2cpio foo.rpm | cpio -idmv --no-absolute-filenames
-    
+
 ### Install an older kernel
 
     yum install kernel-2.6.18-238.9.1.el5
-    
+
     # Make sure the older kernel will boot first.
     cat /etc/grup.conf
-    
+
     reboot
-    
+
     # This might be done before reboot, to make sure that the newer kernel doesn't boot.
     rpm -q kernel
     yum remove kernel-2.6.18-274.7.1.el5
-    
+
 ### Update everything except kernel
 
-    sed -i '$exclude=kernel kernel-devel kernel-headers' /etc/yum.conf 
+    sed -i '$exclude=kernel kernel-devel kernel-headers' /etc/yum.conf
     yum update
-    
+
 ### Add a module to /etc/sysconfig/iptables-config
 
     # Line 1: Remove all old existing module X
@@ -217,10 +217,10 @@ from an intel to an amd computer. You need to rebuild/reinstall the kernel.
     /IPTABLES_MODULES=/s/\( \)\+/ /g;
     /IPTABLES_MODULES=/s/ \"/\"/;
     /IPTABLES_MODULES=/s/\" /\"/
-    " iptables-config 
+    " iptables-config
 
 ### Links to useful commands
 
 [http://blog.urfix.com/25-linux-commands/](http://blog.urfix.com/25-linux-commands/)
 
-    
+

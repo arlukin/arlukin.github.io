@@ -5,7 +5,7 @@ title: Shrink LVM/ext4 partion
 
 Shrink the LVM logical volume that is mounted on /var inside a KVM quest, using ext4 filesystem.
 
-### Login to the host to get the vnc id.
+#### Login to the host to get the vnc id.
 
     [root@vh01-sc ~]# virsh list
      Id    Name                           State
@@ -16,25 +16,25 @@ Shrink the LVM logical volume that is mounted on /var inside a KVM quest, using 
     :11
 
 
-### Connect VNC to the guest.
+#### Connect VNC to the guest.
 
     MacBook-Pro:~ arlukin$ ssh root@vh01-sc -L 5900:localhost:5911
 
-### Use your vncclient to connect to localhost:5900
+#### Use your vncclient to connect to localhost:5900
 
-### Reboot the guest.
+#### Reboot the guest.
 
     reboot
 
-### At the GRUB splash screen at boot time, press any key to enter the GRUB interactive menu.
+#### At the GRUB splash screen at boot time, press any key to enter the GRUB interactive menu.
 
-### Select the configuratio you like to boot and type a to append the line.
+#### Select the configuratio you like to boot and type a to append the line.
 
-### Go to the end of the line and type *single* as a separate word. Press Enter to exit edit mode.
+#### Go to the end of the line and type *single* as a separate word. Press Enter to exit edit mode.
 
-### Wait for server to boot and login.
+#### Wait for server to boot and login.
 
-### If you for example like to shrink the /var partion, first unmount the partion and all it's 'subpartions'. To do so, first list all partions.
+#### If you for example like to shrink the /var partion, first unmount the partion and all it's 'subpartions'. To do so, first list all partions.
 
         [root@ntp-av ~]# df -h
         Filesystem            Size  Used Avail Use% Mounted on
@@ -53,34 +53,34 @@ Shrink the LVM logical volume that is mounted on /var inside a KVM quest, using 
         /dev/mapper/VolGroup00-vartmp
                              1008M   34M  924M   4% /var/tmp
 
-### Then unmount them
+#### Then unmount them
 
     [root@ntp-av ~]# /var/log
     [root@ntp-av ~]# /var/tmp
     [root@ntp-av ~]# /var
 
 
-### Before you can shrink the partion, it must be check for errors.
+#### Before you can shrink the partion, it must be check for errors.
 
     e2fsck -f /dev/mapper/VolGroup00-var
 
-### Shrink ext4 and then the LV to the desired size
+#### Shrink ext4 and then the LV to the desired size
 
     resize2fs -p /dev/mapper/VolGroup00-var 40G
     lvreduce -L 40G /dev/mapper/VolGroup00-var
 
-### Before continuing, run e2fsck. If it bails because the partition is too small, don't panic! The LV can still be extended with lvextend until e2fsck succeeds, e.g.: lvextend -L +1G /dev/mapper/VolGroup00-var
+#### Before continuing, run e2fsck. If it bails because the partition is too small, don't panic! The LV can still be extended with lvextend until e2fsck succeeds, e.g.: lvextend -L +1G /dev/mapper/VolGroup00-var
 
     e2fsck -f /dev/mapper/VolGroup00-var
 
-### Resize the filesystem to match the LVs size.
+#### Resize the filesystem to match the LVs size.
 
     resize2fs -p /dev/mapper/VolGroup00-var
 
-### Check if the resize did go without any errors.
+#### Check if the resize did go without any errors.
 
     e2fsck -f /dev/mapper/VolGroup00-var
 
-### Reboot the machine
+#### Reboot the machine
 
     reboot

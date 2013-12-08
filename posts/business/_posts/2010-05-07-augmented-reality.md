@@ -3,7 +3,7 @@ layout: post
 title: Augmented Reality
 ---
 
-During the time I searched for a new business idea for Awxire AB, I came up with the following business ideas based on Augmented Reality technologies. Plus links to related websites. I haven’t yet abandoned them all, but I feel that they should now be shared to the public. Maybe they will give inspiration to you, if they do please tell me.
+During the time I searched for a new business idea for Awxire AB, I came up with the following business ideas based on Augmented Reality technologies. Plus links to related websites. I haven't yet abandoned them all, but I feel that they should now be shared to the public. Maybe they will give inspiration to you, if they do please tell me.
 
 ## AR Projects
 
@@ -34,7 +34,7 @@ http://blog.makezine.com/archive/2008/11/hand_gesture_multitouch_u.html?CMP=OTC-
 
 ### ARNet (Augmented Reality net)
 
-A worldwide network and parallel reality. Where anybody can place a virtual object, for example a big box at the town square, and on it’s sides webpages or movies are displayed. Another example is that you change the colour or wallpaper in your home or way not place a big tower at the top of your house that can only be seen in the ARNet.
+A worldwide network and parallel reality. Where anybody can place a virtual object, for example a big box at the town square, and on it's sides webpages or movies are displayed. Another example is that you change the colour or wallpaper in your home or way not place a big tower at the top of your house that can only be seen in the ARNet.
 
 * Matt Grove describe ARNet
   http://www.servicentric.com/matt/ar.html
@@ -79,17 +79,17 @@ Like the gem in windows. A virtual person that the user can ask about anything, 
 
 An interpreter that can translate things for the user. Both verbal and by text.
 
-A book system, where the user sees the newspaper/book in the eye field all the time and don’t need to hold the item.
+A book system, where the user sees the newspaper/book in the eye field all the time and don't need to hold the item.
 
 ### ARCar
 
-The driver of the car has HMD, it’s cameras around the car. If he turns left or right the car will be transparent, and he will get no problem with the dead angel. The GPS is connected to the computer and the driver will see an arrow on the road pointing in the direction he should follow. The size of the computer for this solutions has less importance then for other AR-solutions.
+The driver of the car has HMD, it's cameras around the car. If he turns left or right the car will be transparent, and he will get no problem with the dead angel. The GPS is connected to the computer and the driver will see an arrow on the road pointing in the direction he should follow. The size of the computer for this solutions has less importance then for other AR-solutions.
 
 The computer software can also display the distance to the car ahead and behind of the driver. All traffic signs will be enlarged, and the system will remember all the signs that are valid for this road. If the driver missed them.
 
 All passengers can have their own HMD, and look on movies during the car trip, or look on GPS-connected maps to see where you are now, browse the internet etc.
 
-This might be more useful for truck drivers, they have more dead angels. If it’s a mounted crane on the truck, that can be controlled directly from the driver’s stand.
+This might be more useful for truck drivers, they have more dead angels. If it's a mounted crane on the truck, that can be controlled directly from the driver's stand.
 
 http://www.conrad.se/swe/tp.php?recordID=853652&httpref=&ref=kelkoo&tduid=73731c521a08586f86d9eb1940d9fed6
 
@@ -130,18 +130,18 @@ A guiding system, where you walk around in Stockholm and can see small shows of 
 
 ### ARThemePark
 
-The future of haunted house. You walk around with a wearable computer like a commando solider in a “space ship”. Different alien monsters comes up around the corners.
+The future of haunted house. You walk around with a wearable computer like a commando solider in a "space ship”. Different alien monsters comes up around the corners.
 
 10 minutes to go through the house. 100 kronor per person. About 500 per hour and device. Open 10 hours a day and 30 days a month, 150 000 a month for each device. The devices will probably not be for full time, but with a use of between 10% and 100% and 20 devices the income will be between 300 000 and 3 000 000.
 
-A “real Jurassic park”. Instead of  monsters the user can see dinosaurs. You can get information about each specimen.
+A "real Jurassic park”. Instead of  monsters the user can see dinosaurs. You can get information about each specimen.
 
 ### ARMirrors
 
 * Replacement/compliment of these big billboards you can see at bus stops, in the subway, on the streets. Instead of the poster, we have a big tv, a camera and a computer. If you walk up to the billboard you will see yourself with the product we sell, it might be you in a new jacket, yourself sitting in a new car. Maybe also a camera on the other side, so it looks like you are looking at yourself in a car on the street ahead of you (behind the billboard).
 * In a clothing store, you can choose between different clothes and see how they look on you. You can even have a webcamera at home. Can be used for haircut and makeup.
 * Spooky mirror. Mirror (big tv with camera) that will add strange things in the background of the mirror. Remove the head, and arm of you or someone else in the mirror. Add a monster behind you. Show a different background then what you think is behind you. Maybe put this mirror in a haunted house in a theme park.
-* FishTank mirror. Looks like it’s a fish tank built into the wall, where fishes and other strange things (monsters) are swimming around. If you knock on the glass, they will come to you, maybe try to bite your finger if you are holding it against the glass. Or if you just stand in front of the tank for to long, they will swim up to the glass and stare on you.
+* FishTank mirror. Looks like it's a fish tank built into the wall, where fishes and other strange things (monsters) are swimming around. If you knock on the glass, they will come to you, maybe try to bite your finger if you are holding it against the glass. Or if you just stand in front of the tank for to long, they will swim up to the glass and stare on you.
 * In a theme park. Like these paper screens in which you put your head,
   and then photo. Instead a ARMirror , and you can choose between different
   scenarios and then get a printed photo, or a movie burned on a DVD.<br/>
@@ -178,11 +178,11 @@ A room that will act as a holographic room, where the user can experience differ
 
 ### Early SimStim (Simulated Stimulation??)
 
-A SimStim is a fictional creation by William Gibson in Neuromancer. It let’s a user ‘tap in’ to another users sensory input, but not have any control over them, and experience everything that the other user are experiencing, seeing, hearing and feeling.
+A SimStim is a fictional creation by William Gibson in Neuromancer. It let's a user ‘tap in' to another users sensory input, but not have any control over them, and experience everything that the other user are experiencing, seeing, hearing and feeling.
 
 In our version we let an actor be motion captured. Then the movie will be replayed in a hydraulic connected stand, which will move the users body around, and let him see what the actor did feel. Maybe the actor did parachute, or did drive a formula one car.
 
-This can also be used in real time. The “passenger” can see what the actor does, and help him to do what he is supposed todo. With a “mouse-pointer” the passenger can point on different things in the actors view field (he wears a HMD).
+This can also be used in real time. The "passenger” can see what the actor does, and help him to do what he is supposed todo. With a "mouse-pointer” the passenger can point on different things in the actors view field (he wears a HMD).
 
 ### ARTamagotchi
 

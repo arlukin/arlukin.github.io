@@ -6,7 +6,7 @@ title: Business ideas
 ## Things I would use myself
 * BookingHub, generel service where people can book them self up on things, and pay for it. Like the SMC gocart courses.
 * CottageHub, booking service for small cottages like sveaborg.cybercow.se
-* SimpleWeb, SimpleLDAP, SimpleSSL, SimpleVPS, SimpleStorage. A simple web "service" for popular LINUX services. 
+* SimpleWeb, SimpleLDAP, SimpleSSL, SimpleVPS, SimpleStorage. A simple web "service" for popular LINUX services.
 * SweSlice, a small scale VPS service.
   * 14120:- 1 x HP PROLIANT DL180 G6 XE L5520 2.26-8MB 4GB/160GB SATA
   * 12900:- 12 x HP 4GB UDIMM DDR3 1333 ECC MEMORY
@@ -38,22 +38,22 @@ title: Business ideas
 
   Sell the system to video stores and share the revenue, maybe like
   spreadshirt.com.
-* Email database/system with only “verified emails”. To remove all spam.
+* Email database/system with only "verified emails”. To remove all spam.
   Everybody in the system can email to each other and to people
   outside the system. But if someone not using the system emails
   someone within the system, they will get an email back telling them
-  that they need to register in the “verified email database”. When
+  that they need to register in the "verified email database”. When
   receiving email, verified emails will end up in the Inbox, all
-  other in a “spam-not-verified-folder”. To register in the system
+  other in a "spam-not-verified-folder”. To register in the system
   the user must prove that they are who they say they are, by phone
   (like on freessl), bankid, knowing someone in the system or other
   secure way. If someone is not behaving they will be baned. Possible
-  to tag messages as newsletters if it’s a mass post, and they will
+  to tag messages as newsletters if it's a mass post, and they will
   end up in a separate folder.
 * Build a taskmanagement/knowledgebase system.
-* Build a house building site, with the focus on “tudor” style. It
+* Build a house building site, with the focus on "tudor” style. It
   will contain webshop with furnitures and building materials. Selling
-  “house-jewelry” like gargoyles, faces on walls, animals holding
+  "house-jewelry” like gargoyles, faces on walls, animals holding
   balcony on their shoulders, animallamps etc.
 * USB-memory with the appearance like a ZIPPO-lighter. Ads together
   with the zippo-flipper webpage.
@@ -64,7 +64,7 @@ title: Business ideas
   program/Bittorrent-downloader/Programmering editor/Projecthandling
   system/Advertisement page(ebay/blocket)
 
-## Things I probably wouldn’t use myself
+## Things I probably wouldn't use myself
 
 * Find a page with many hits, to see what other people are interested
   in. Possible to create a new businesses around that?

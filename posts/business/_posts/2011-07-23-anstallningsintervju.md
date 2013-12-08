@@ -29,7 +29,7 @@ Om kandidaten är lite osäker, eller inte söker en tjänst där denna kompeten
   arbetsuppgifterna, vilken titel medarbetaren får och vilken
   betydelse uppgifterna har i företaget som helhet och gentemot
   företagets kunder.
-* “Hur kommer det sig nu att du söker dig till den här typen av
+* "Hur kommer det sig nu att du söker dig till den här typen av
   arbetsuppgifter?”
 
 ## Bakgrund
@@ -107,7 +107,7 @@ Inledningsvis låter du kandidaten själv beskriva vad han anser vara sina bäst
 
 ## Drömjobbet/Motivation
 
-Kandidatens motivation att göra jobbet är en förutsättning för att alla andra tänkbara kvalitéer skall komma till nytta vid en anställning. Så här långt bör du ha fått en nyanserad bild av kandidatens möjligheter att klara jobbet, men behöver veta mer om vad som mest motiverar kandidaten till arbete. Du vill också veta mer om kandidatens allmänna attityder och personliga karaktär. Ingen gör dessa saker om det inte är för att de blir motiverade av det. Glöm inte att fråga om detaljerna med avsikt att få veta allt om vad som hände både i och runt arbetsuppgiften. Detaljerna visar dig vad det är som ger den extra “kicken” för kandidaten.
+Kandidatens motivation att göra jobbet är en förutsättning för att alla andra tänkbara kvalitéer skall komma till nytta vid en anställning. Så här långt bör du ha fått en nyanserad bild av kandidatens möjligheter att klara jobbet, men behöver veta mer om vad som mest motiverar kandidaten till arbete. Du vill också veta mer om kandidatens allmänna attityder och personliga karaktär. Ingen gör dessa saker om det inte är för att de blir motiverade av det. Glöm inte att fråga om detaljerna med avsikt att få veta allt om vad som hände både i och runt arbetsuppgiften. Detaljerna visar dig vad det är som ger den extra "kicken” för kandidaten.
 
 * Vad är ditt drömjobb? Det behöver inte vara realistiskt.
 * Vad är din målbild, var vill du vara om fem år? Vad skulle du vilja uppnå?
@@ -202,7 +202,7 @@ Prioritera projekt.
 * Hur tycker du kod ska skrivas.
 * Hur ser du till att din kod gör vad den ska göra? Unit test, tänker till, trial and error?
 * Hur lär du dig befintlig kod bäst? Genom att få den förklarad, eller genom att testa dig fram och läsa den fram och tillbaka.
-* Vad gillar du bäst, skriva “api:er” eller använda “api:er”.
+* Vad gillar du bäst, skriva "api:er” eller använda "api:er”.
 * Om du ska ändra i befintlig kod, gör du helst bara den förändring som du blivt tilldelad på två timmar och sedan release till kund. Eller vill du hellre lägga ner 20 timmar på att fixa till koden så att den fungerar på det bästa och snyggaste sättet.
 * Vad tycker du om dåligt skriven kod? Försöker du utgår ifrån det befintliga och snygga till det eller bygger du hellre om allt på ditt sätt.
 * Hur löser du en programmeringsuppgift inom ett nytt område? Frågar du någon bekant om hjälp, eller envisas du och försöker själv hitta en lösning eller ställer du frågor I forum.
@@ -213,7 +213,7 @@ Prioritera projekt.
 
 * Password question.<br/>
   A phone call.<br/>
-  Hi, I can’t login to the our reservation system. It says invalid user and password.
+  Hi, I can't login to the our reservation system. It says invalid user and password.
 * An support item from the Germany market. Change the GPS price on UK rates, to 40 euro.
 * Rate problem, We are getting to high car prices on the www.alamo.co.uk.
 * Fleet import, I thought we had the Fleet and Location file automation was corrected?It looks like Wakefield LBAS72 Alamo and LBAS02 National was updated last week as the branch moved addresses but on the sites still showing the old data? Could you confirm you are able to get the data OK now and that your system is uploading it with out fail every Monday?

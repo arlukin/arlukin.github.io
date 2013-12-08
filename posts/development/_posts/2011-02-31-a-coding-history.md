@@ -116,13 +116,13 @@ This program was made to fool [Nebol](http://www.nebol.se/) when he where
 using the Explorer in win95. But instead [Gandalf](http://www.torrentialrain.com/)
 and [Dennis](imatmcdonalds.wordpress.com) were tricked with it. The only
 thing the program do, is that
-it views a .bmp on the screen and you can’t quit it. The .bmp should be
+it views a .bmp on the screen and you can't quit it. The .bmp should be
 an Gfx Rip of explorer or some other program. Then change the short cut
 to that program and when the user wants to run the program it seems like
-it crashes all the time. Funny isn’t..
+it crashes all the time. Funny isn't..
 
 #### 970406 - Text Screen Saver [(download)]({{ site.file_url }}/a_coding_history/970406_Text_Screen_Saver.zip)
-This is my first win32 program. It’s a screen saver that shows a text
+This is my first win32 program. It's a screen saver that shows a text
 message on the screen, you can change the message. Written with MVC++ 4.2.
 
 #### 950919 - AsmLink [(download)]({{ site.file_url }}/a_coding_history/950919_AsmLink.zip)
