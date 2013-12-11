@@ -3,13 +3,15 @@ layout: post
 title: FareOfficeLib
 ---
 
+(This project is abandoned)
+
 FareOfficeLib is a collection of general php functions that we are using
 at Fareoffice Car Rental Solutions AB. Since 2001 we have created over
 600 000 lines of PHP code. A big part of that code are general php
-classes and functions, that can be used by useful for anybody.
+classes and functions, that can be useful for anybody.
 
 Currently when writing this text, most of the "FareOfficeLib” code are
-still in the closed source trunk. But our goal is to move as much of
+still in the closed source trunk. But our goal is to move most of
 that code into the FareOfficeLib trunk. This will take sometime, so be
 patient. Another goal is that all code in the FareOfficeLib should be
 well written and documented.
@@ -34,11 +36,11 @@ Change the path in fareofficelib/.htaccess Browse the file
 http://localhost/fareofficelib/UnitTestHtDocs/index.php
 Click [RUN ALL TESTS] to see that the lib works on your server.
 
-### Step 3: Move the code to the right folders.
+### Step 3: Move the code to correct folders.
 
-In the fareofficelib folder you find 3 different folders.
+In the fareofficelib archive you will find 3 different folders.
 
-PhpInclude The contents of this folder should be moved to your php
+PhpInclude - The contents of this folder should be moved to your php
 include_path folder. If you don't have a specified include_path folder,
 you can just move the contents to your apache document_root folder.
 
@@ -47,8 +49,8 @@ contains this row.
 
 php_value include_path ".:/var/www/fareofficelib/PhpInclude”
 
-UnitTestHtDocs This folder (not just the contents) should be moved to
+UnitTestHtDocs - This folder (not just the contents) should be moved to
 your apache document_root folder. When browsing the UnitTestHtDocs/index.php
 file from your web browser, you will execute all/some Unit Tests for this project.
 
-Documentation This folder contains the manual for the FareOfficeLib.
+Documentation - This folder contains the manual for the FareOfficeLib.

@@ -15,7 +15,7 @@ A bash script used in linux (/etc/init.d/glassfish) to start the glassfish java 
 #### 110910 - Open Archive Network [(github src)](https://github.com/oan/oand)
 A prototype of a distributed filesystem/database written in python.
 
-#### 110910 - download-github.py [(github src)](https://github.com/arlukin/cchome)
+#### 110910 - download-github.py [(github src)](https://github.com/arlukin/cchome/blob/master/bin/download-github.py)
 Downloads (clone/pull) all repos for a github user, including all organizations
 (s)he is involved in. Uses the github api. I use this script to backup all
 my github repos.
@@ -31,11 +31,11 @@ On this page I publish Swedish & English articles related to projects
 I'm involved in. Instead of writing notes and text and store them
 privately on my computer, I share them on this webpage.
 
-#### 110225 - Random shell scripts [(github src)](https://github.com/arlukin/home)
+#### 110225 - Random shell scripts [(github src)](https://github.com/arlukin/cchome)
 This repo holds files that I usually have in my /home/arlukin folder.
 It can be config files, scripts etc.
 
-#### 110212 - Fareoffice Shell [(github src)](https://github.com/arlukin/fosh)
+#### 110212 - System Console (syco) [(github src)](https://github.com/systemconsole/)
 A bunch of sysadmin functions used at Fareoffice. The goal with this
 project is to have a script that can be executed once and then remotley
 install all servers.
@@ -91,14 +91,13 @@ This is the result, nothing much. I just made it possible to load a
 map from TA and to scroll over it. (But I'm still thinking about doing
 this, maybe for the new popular ios or android platforms.)
 
-#### 000111 - CyberCow Virtual Office 2000 [(spec)]({{ site.file_url }}/a_coding_history/000111_ccVO2k System Dokumentation.doc) [(src)]({{ site.file_url }}/a_coding_history/000111_ccDev.zip) [(release)]({{ site.file_url }}/a_coding_history/000111_ccVO2k.zip) [(ccLib doc)]({{ site.file_url }}/a_coding_history/000111_ccLib.zip)
-
+#### 000111 - CyberCow Virtual Office 2000 [(spec)]({{ site.file_url }}/a_coding_history/000111_ccVO2k System Dokumentation.doc) [(release)]({{ site.file_url }}/a_coding_history/000111_ccVO2k.zip) [(ccLib doc)]({{ site.file_url }}/a_coding_history/000111_ccLib.zip)
 
 This is an application used to work with virtual projects. The project
 information are stored centrally on a server, and people around
 the world can then fast and easy reach their project information over internet.
 I was planning to build a business around this software, but instead I
-got caught in the [Fareoffice](http://www.fareoffice.com) (and still are.)
+got caught by [Fareoffice](http://www.fareoffice.com)
 This is my largets c++ application so far (2011).
 
 #### 980426 - ccNoteIt [(download)]({{ site.file_url }}/a_coding_history/980426- ccNoteIt.zip)
@@ -114,7 +113,7 @@ This a game developer editor for 2D games.
 #### 971022 - KillAPP [(download)]({{ site.file_url }}/a_coding_history/971022_KillAPP.zip)
 This program was made to fool [Nebol](http://www.nebol.se/) when he where
 using the Explorer in win95. But instead [Gandalf](http://www.torrentialrain.com/)
-and [Dennis](imatmcdonalds.wordpress.com) were tricked with it. The only
+and [Dennis](http://imatmcdonalds.wordpress.com) were tricked with it. The only
 thing the program do, is that
 it views a .bmp on the screen and you can't quit it. The .bmp should be
 an Gfx Rip of explorer or some other program. Then change the short cut
@@ -169,7 +168,7 @@ This is a simple Demo written in TurboPascal.
 
 #### 9XXXXX - Negative
 A photo negative database written in Amos, that I did for a my neighbor
-Kenneth who was an amatour photographer. This was my first useful
+Kenneth who was an amateur photographer. This was my first useful
 application. I think I still have the source on a floppy somewhere.
 
 #### 9XXXXX -  Kongoman

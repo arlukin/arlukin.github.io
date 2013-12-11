@@ -28,7 +28,7 @@ Shrink the LVM logical volume that is mounted on /var inside a KVM quest, using 
 
 #### At the GRUB splash screen at boot time, press any key to enter the GRUB interactive menu.
 
-#### Select the configuratio you like to boot and type a to append the line.
+#### Select the configuration you like to boot and type a to append the line.
 
 #### Go to the end of the line and type *single* as a separate word. Press Enter to exit edit mode.
 

@@ -35,25 +35,6 @@
 
                 <div class="panel-group" id="accordion">
 
-                    <!-- Development -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion1" href="#development">
-                                    Development
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="development" class="panel-collapse collapse in">
-                            <div class="panel-body">
-                                {% for post in site.categories.development %}
-                                    <a href="{{ post.url }}">{{ post.title }}</a><br/>
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </div>
-
-
                     <!-- linux -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -73,18 +54,18 @@
                     </div>
 
 
-                    <!-- business -->
+                    <!-- Development -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion3" href="#business">
-                                    Business
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#development">
+                                    Development
                                 </a>
                             </h4>
                         </div>
-                        <div id="business" class="panel-collapse collapse in">
+                        <div id="development" class="panel-collapse collapse in">
                             <div class="panel-body">
-                                {% for post in site.categories.business %}
+                                {% for post in site.categories.development %}
                                     <a href="{{ post.url }}">{{ post.title }}</a><br/>
                                 {% endfor %}
                             </div>
@@ -104,6 +85,25 @@
                         <div id="veg_recipe" class="panel-collapse collapse in">
                             <div class="panel-body">
                                 {% for post in site.categories.veg_recipe %}
+                                    <a href="{{ post.url }}">{{ post.title }}</a><br/>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- business -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion3" href="#business">
+                                    Business
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="business" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                {% for post in site.categories.business %}
                                     <a href="{{ post.url }}">{{ post.title }}</a><br/>
                                 {% endfor %}
                             </div>
@@ -229,6 +229,11 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/assets/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    $( "table" ).addClass( "table table-striped table-condensed" );
+</script>
+
 
 </body>
 </html>

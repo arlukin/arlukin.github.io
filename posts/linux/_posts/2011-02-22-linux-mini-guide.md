@@ -3,7 +3,7 @@ layout: post
 title: Linux mini guide
 ---
 
-### Free disk cache.
+#### Free disk cache.
 
 More info at http://www.linuxatemyram.com/
 
@@ -11,59 +11,59 @@ More info at http://www.linuxatemyram.com/
      echo 3 | sudo tee /proc/sys/vm/drop_caches
      free -m
 
-### Display VmSize used by all apache httpd processes.
+#### Display VmSize used by all apache httpd processes.
 
      ps aux |grep httpd| cut -f 4 -d " "| xargs -n 1 -I {} cat /proc/{}/status|grep "VmSize"
 
-### Reverse tunnel ssh
+#### Reverse tunnel ssh
 
      ssh -p35 -N -f -C -g -R 8022:localhost:22 root@server.com
 
-### Create and apply a patch
+#### Create and apply a patch
 
     diff -uN  patchtest.txt patchtest1.txt > patchtest.patch
     patch patchtest.txt < patchtest.patch
 
-### Print the matched line, along with the 3 lines after it. case insensetive search.
+#### Print the matched line, along with the 3 lines after it. case insensetive search.
 
     grep -A 3 -i "elif" *
 
-### Start SSH tunnel
+#### Start SSH tunnel
 
     ssh -N -L 2080:localhost:80 home
 
-### Start webserver in current directory
+#### Start webserver in current directory
 
     python -m SimpleHTTPServer
 
-### Insert many rows into one file
+#### Insert many rows into one file
 
     cat >> /tmp/file << EOF
     row 1
     row 2
     EOF
 
-### Replace string in a file, write change to file.
+#### Replace string in a file, write change to file.
 
     sed -i 's/SEARCH/REPLACE/g' /etc/passwd
 
-### Replace string in a file, show change on stdout.
+#### Replace string in a file, show change on stdout.
 
     sed 's/SEARCH/REPLACE/g' /etc/passwd
 
-### Find all files except .svn that includes @todo
+#### Find all files except .svn that includes @todo
 
     find . -name .svn -prune -o -type f -exec grep -Hn "@todo” {} \;
 
-### Find all files including the ip 10.100.50.3 and delete them.
+#### Find all files including the ip 10.100.50.3 and delete them.
 
     find -exec grep 10.100.50.3 {} \;|awk ‘{print $3}' |xargs -L 1 rm
 
-### Find all 404 errors in apache error logs.
+#### Find all 404 errors in apache error logs.
 
     find -exec grep 404 {} \; >ERR
 
-### Setup ssh login without password
+#### Setup ssh login without password
 
 If you like to login from computer A to computer B with ssh, without
 using any password, follow the below script code. This is useful if you
@@ -93,22 +93,22 @@ Now it's possible to login to B from A with user a and no password.
     a@A:~> ssh b@B hostname
     B
 
-### Setup nfs
+#### Setup nfs
 
 Click [here](https://help.ubuntu.com/community/SettingUpNFSHowTo)
 or [here](http://www.ubuntugeek.com/nfs-server-and-client-configuration-in-ubuntu.html)
 for external link.
 
-### Find all ips on a network
+#### Find all ips on a network
     nmap -v -sP 192.168.0.*
 
-### View the arp cache (ip vs mac)
+#### View the arp cache (ip vs mac)
 arp -na
 
-### Enable ip-forarding
+#### Enable ip-forarding
 sysctl -w net.ipv4.ip_forward=1
 
-### Setup dar backup
+#### Setup dar backup
 
 Click [here](http://dar.linux.free.fr/doc/mini-howto/index.html) for a
 mini howto about dar backups.
@@ -117,12 +117,12 @@ download a dar backup script
 or [here](https://github.com/arlukin/home/blob/master/bin/dar_backups.sh)
 to download my version.
 
-### Linux commands
+#### Linux commands
 
 Click [here](http://www.pixelbeat.org/cmdline.html) or
 [here](http://ss64.com/bash/) for mini linux command howto.
 
-### Temp on ati GPU
+#### Temp on ati GPU
 
     aticonfig –odgt | grep Temp | cut -b 43-47
     for (( i=0;i<10;i++ )) ;
@@ -132,12 +132,12 @@ Click [here](http://www.pixelbeat.org/cmdline.html) or
       sleep 1;
     done
 
-### Test network speed
+#### Test network speed
 
     On server: ./iperf -s -K 1M
     On Client: ./iperf -c 10.0.1.100 -i 1
 
-### Centos kernel rescue
+#### Centos kernel rescue
 
 If the kernel is damaged, or as in my case you like to move a hard drive
 from an intel to an amd computer. You need to rebuild/reinstall the kernel.
@@ -149,7 +149,7 @@ from an intel to an amd computer. You need to rebuild/reinstall the kernel.
     yum install kernel
     reboot
 
-### Create and mount an lvm logical volume
+#### Create and mount an lvm logical volume
 
     vgcreate vg_data /dev/hdd
     lvcreate -n VolData -L 50G vg_data
@@ -159,15 +159,15 @@ from an intel to an amd computer. You need to rebuild/reinstall the kernel.
     Execute a program periodically, showing output fullscreen
     watch "ps aux|grep mysql”
 
-### Watch changeable data continuously
+#### Watch changeable data continuously
 
     watch -n.1 'cat /proc/interrupts'
 
-### Log all selinux errors
+#### Log all selinux errors
 
     semodule -DB
 
-### Create selinux rules
+#### Create selinux rules
 
     yum install -y policycoreutils-python setroubleshoot-server
     sealert -a /var/log/audit/audit.log
@@ -177,17 +177,17 @@ from an intel to an amd computer. You need to rebuild/reinstall the kernel.
     semodule_package -o sycocobbler.pp -m sycocobbler.mod
     semodule -i sycocobbler.pp
 
-### How is centos packages build?
+#### How is centos packages build?
 
     yumdownloader --source openldap-servers
     rpm -Uvh openldap-servers*
     less rpmbuild/SPECS/openldap.spec
 
-### Extract info from an rpm.
+#### Extract info from an rpm.
 
     rpm2cpio foo.rpm | cpio -idmv --no-absolute-filenames
 
-### Install an older kernel
+#### Install an older kernel
 
     yum install kernel-2.6.18-238.9.1.el5
 
@@ -200,12 +200,12 @@ from an intel to an amd computer. You need to rebuild/reinstall the kernel.
     rpm -q kernel
     yum remove kernel-2.6.18-274.7.1.el5
 
-### Update everything except kernel
+#### Update everything except kernel
 
     sed -i '$exclude=kernel kernel-devel kernel-headers' /etc/yum.conf
     yum update
 
-### Add a module to /etc/sysconfig/iptables-config
+#### Add a module to /etc/sysconfig/iptables-config
 
     # Line 1: Remove all old existing module X
     # Line 2: Add module X
@@ -219,7 +219,7 @@ from an intel to an amd computer. You need to rebuild/reinstall the kernel.
     /IPTABLES_MODULES=/s/\" /\"/
     " iptables-config
 
-### Links to useful commands
+#### Links to useful commands
 
 [http://blog.urfix.com/25-linux-commands/](http://blog.urfix.com/25-linux-commands/)
 

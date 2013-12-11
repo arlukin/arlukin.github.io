@@ -3,7 +3,7 @@ layout: post
 title: Rosmarinstekta Quorn Filéer
 ---
 
-![Food]({{ site.url }}/images/food/2011-03-10-rosmarinstekta-quorn-fileer.png)
+<img src="/images/food/2011-03-10-rosmarinstekta-quorn-fileer.png" title="Food" class="img-thumbnail pull-right">
 
 >* Portioner: 4
 >* Tillagningstid: 60 minuter
@@ -71,3 +71,6 @@ Tillagning
 * Tillsätt vetemjöl och fräs lite till.
 * Häll på vatten och låt koka ihop.
 * Tillsätt grädden, socker, soja samt dijonsenap. Koka ihop.
+
+
+
